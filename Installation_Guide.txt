@@ -1,0 +1,24 @@
+1. Download Alterware Client from https://alterware.dev/
+
+2. Paste it into Your MW3 directory and run it, Let it finish downloading some files,
+
+3. In your MW3 game directory, create a folder called "userraw" ... "MW3_Directory\userraw\",
+
+4. Again, in your MW3 directory, create a folder called "mods" then inside it another folder called "mod" ... "MW3_Directory\mods\mod\",
+
+5. Copy the mod files => "aitype, character, maps, xmodelalias" Only ... Then Paste them inside => "MW3_Directory\userraw\",
+
+6. Copy the "mod.iwd" or just "mod" file which is inside "Files\" Paste it to => "MW3_Directory\main\" ... inside main folder,
+
+7. In zone folder you will find a file called "mod.ff" or just "mod" copy it then... Paste it inside => "MW3_Directory\mods\mod\",
+
+8. Run "Alterware Client" and open "Singleplayer", make sure you are "lower than your Original resolution" in Game Settings =>
+   like if you are using "1920 * 1080" in the game change it to be like "1280 * 720" and make sure it is "Windowed" not FullScreen or Borderless
+   Then restart the game window,
+
+9.  in the background you will find the "MW3 Console", in it type this => "fs_game mods/mod"
+
+10. then go back to your original game resolution and the most important thing let the game restart normally,
+
+Note => Every time you are going to Launch or Load the mod you have to do "8 , 9 and 10".
+If you have any issues You could contact me or leave a comment on the tutorial video on the YT Channel...
