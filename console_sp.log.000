@@ -1,0 +1,313 @@
+[      3307] Loading FastFile: code_pre_gfx (0x1 | 0x0)
+[      4516] Loading FastFile: code_post_gfx (0x0 | 0x0)
+[      4516] Loading FastFile: patch (0x0 | 0x0)
+[      5359] Loading FastFile: ui (0x2 | 0x0)
+[      5359] Loading FastFile: common (0x1 | 0x0)
+[      5917] Waited 204 msec for asset 'ui/menus.txt' of type 'menufile'.
+[      6097] Working directory: E:\iw5
+[    379045] Unloaded fastfile ui
+[    379063] Loading FastFile: patch_sp_intro (0x4 | 0x0)
+[    379063] Loading FastFile: english_sp_intro (0x4 | 0x0)
+[    379063] Loading FastFile: sp_intro (0x4 | 0x0)
+[    379270] Loading FastFile: patch_intro (0x4 | 0x0)
+[    379270] Loading FastFile: english_intro (0x4 | 0x0)
+[    379270] Loading FastFile: intro (0x44 | 0x0)
+[    382090] Could not load map entities file [maps/intro.d3dbsp] as a rawfile
+[    382121] Waited 2813 msec for asset 'maps/intro.d3dbsp' of type 'col_map_sp'.
+[    382287] Compiling rawfile 'maps/_names'
+[    382437] Compiling rawfile 'maps/_loadout'
+[    384223] Waited 1715 msec for asset '18672' of type 'scriptfile'.
+[    384437] Compiling rawfile 'maps/intro_anim'
+[    384520] Compiling rawfile 'maps/intro_code'
+[    384882] Compiling rawfile 'aitype/enemy_opforce_india_ak47'
+[    385094] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_assault_rnd'
+[    385121] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_assault_a'
+[    385122] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_assault_b'
+[    385155] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_assault_c'
+[    385249] Compiling rawfile 'aitype/ally_hero_soap_intro'
+[    385298] Compiling rawfile 'character/characters_intro/allies/character_russian_rpg'
+[    385348] Compiling rawfile 'aitype/enemy_opforce_india_lmg'
+[    385404] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_lmg_rnd'
+[    385406] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_lmg_a'
+[    385407] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_lmg_b'
+[    385434] Compiling rawfile 'aitype/ally_intro_russian_ar'
+[    385471] Compiling rawfile 'character/characters_intro/allies/character_russian_assault_rnd'
+[    385495] Compiling rawfile 'character/characters_intro/allies/character_russian_assault_b'
+[    385516] Compiling rawfile 'aitype/ally_hero_price_intro'
+[    385536] Compiling rawfile 'character/characters_intro/allies/character_russian_smg_a'
+[    385560] Compiling rawfile 'aitype/ally_hero_nikolai_intro'
+[    385578] Compiling rawfile 'character/characters_intro/allies/character_russian_shotgun_a'
+[    385579] Compiling rawfile 'aitype/ally_intro_russian_rpg'
+[    385588] Compiling rawfile 'aitype/ally_intro_russian_lmg'
+[    385592] Compiling rawfile 'character/characters_intro/allies/character_russian_lmg_a'
+[    385617] Compiling rawfile 'aitype/enemy_opforce_india_p90'
+[    385635] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_smg_rnd'
+[    385646] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_smg_a'
+[    385648] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_smg_b'
+[    385704] Compiling rawfile 'aitype/enemy_opforce_india_shotgun'
+[    385723] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_shotgun_rnd'
+[    385725] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_shotgun_a'
+[    385726] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_shotgun_b'
+[    385788] Compiling rawfile 'aitype/ally_hero_yuri_intro'
+[    385849] Compiling rawfile 'aitype/enemy_opforce_india_rpg'
+[    385851] Compiling rawfile 'character/characters_intro/enemies/character_loyalist_rpg'
+[    385893] Compiling rawfile 'aitype/ally_intro_russian_shotgun'
+[    385899] Scanning directory 'scripts' for custom GSC scripts...
+[    385904] Scanning directory 'scripts/sp' for custom GSC scripts...
+[    385909] Loading script _cp.gsc...
+[    385910] Compiling rawfile 'scripts/sp/_cp'
+[    385911] Script scripts/sp/_cp.gsc loaded successfully
+[    385911] Loaded 'scripts/sp/_cp::main'
+[    385911] Scanning directory 'scripts/sp/sp_intro' for custom GSC scripts...
+[    385915] Scanning directory 'scripts/sp/campaign' for custom GSC scripts...
+[    385965] Could not load hitloc damage table [info/ai_lochit_dmgtable] as a rawfile
+[    385965] Could not load bullet penetration table [info/bullet_penetration_sp] as a rawfile
+[    386052] Executing 'scripts/sp/_cp::main'
+[    386066] Not allowing the client to override dvar 'cg_fovScale'
+[    438560] Waited 52478 msec for asset 'body_shadow_co_assault' of type 'xmodel'.
+[    439014] Could not load graph [aim_assist/view_input_0.graph] as a rawfile
+[    439014] Could not load graph [aim_assist/view_input_1.graph] as a rawfile
+[    439015] Could not load graph [aim_assist/view_input_2.graph] as a rawfile
+[    439015] Could not load graph [aim_assist/view_input_3.graph] as a rawfile
+[    481183] Unloaded fastfile intro
+[    481209] Unloaded fastfile sp_intro
+[    481209] Unloaded fastfile patch_sp_intro
+[    481224] Loading FastFile: ui (0x2 | 0x0)
+[    481435] Waited 172 msec for asset 'ui/menus.txt' of type 'menufile'.
+[    489318] Unloaded fastfile ui
+[    489378] Unloaded fastfile common
+[    489385] Unloaded fastfile patch
+[    489385] Unloaded fastfile code_post_gfx
+[    489385] Unloaded fastfile code_pre_gfx
+[    489766] Loading FastFile: code_pre_gfx (0x1 | 0x0)
+[    489802] Loading FastFile: code_post_gfx (0x0 | 0x0)
+[    489802] Loading FastFile: patch (0x0 | 0x0)
+[    490054] Loading FastFile: ui (0x2 | 0x0)
+[    490054] Loading FastFile: common (0x1 | 0x0)
+[   1296677] Unloaded fastfile ui
+[   1296694] Loading FastFile: patch_sp_intro (0x4 | 0x0)
+[   1296694] Loading FastFile: english_sp_intro (0x4 | 0x0)
+[   1296694] Loading FastFile: sp_intro (0x4 | 0x0)
+[   1296732] Loading FastFile: patch_intro (0x4 | 0x0)
+[   1296732] Loading FastFile: english_intro (0x4 | 0x0)
+[   1296732] Loading FastFile: intro (0x44 | 0x0)
+[   1299591] Could not load map entities file [maps/intro.d3dbsp] as a rawfile
+[   1299619] Waited 2849 msec for asset 'maps/intro.d3dbsp' of type 'col_map_sp'.
+[   1299677] Compiling rawfile 'maps/_names'
+[   1299752] Compiling rawfile 'maps/_loadout'
+[   1301396] Waited 1570 msec for asset '18672' of type 'scriptfile'.
+[   1301438] Compiling rawfile 'maps/intro_anim'
+[   1301456] Compiling rawfile 'maps/intro_code'
+[   1301548] Compiling rawfile 'aitype/enemy_opforce_india_ak47'
+[   1301549] Compiling rawfile 'character/intro/enemies/character_pmc_assault_rnd'
+[   1301549] Compiling rawfile 'character/intro/enemies/character_pmc_assault_a'
+[   1301550] Compiling rawfile 'character/intro/enemies/character_pmc_assault_b'
+[   1301551] Compiling rawfile 'character/intro/enemies/character_pmc_assault_c'
+[   1301551] Compiling rawfile 'aitype/ally_hero_soap_intro'
+[   1301552] Compiling rawfile 'character/intro/allies/character_russian_rpg'
+[   1301553] Compiling rawfile 'aitype/enemy_opforce_india_lmg'
+[   1301554] Compiling rawfile 'character/intro/enemies/character_pmc_lmg_rnd'
+[   1301555] Compiling rawfile 'character/intro/enemies/character_pmc_lmg_a'
+[   1301556] Compiling rawfile 'character/intro/enemies/character_pmc_lmg_b'
+[   1301556] Compiling rawfile 'aitype/ally_intro_russian_ar'
+[   1301557] Compiling rawfile 'character/intro/allies/character_russian_assault_rnd'
+[   1307732] Waited 6174 msec for asset 'character/characters_intro/allies/character_russian_assault_b' of type 'scriptfile'.
+[   1308214] Unloaded fastfile intro
+[   1308244] Unloaded fastfile sp_intro
+[   1308244] Unloaded fastfile patch_sp_intro
+[   1308266] Loading FastFile: ui (0x2 | 0x0)
+[   1308417] Waited 116 msec for asset 'ui/menus.txt' of type 'menufile'.
+[   1401841] Unloaded fastfile ui
+[   1401859] Loading FastFile: patch_sp_intro (0x4 | 0x0)
+[   1401859] Loading FastFile: english_sp_intro (0x4 | 0x0)
+[   1401859] Loading FastFile: sp_intro (0x4 | 0x0)
+[   1401896] Loading FastFile: patch_intro (0x4 | 0x0)
+[   1401896] Loading FastFile: english_intro (0x4 | 0x0)
+[   1401896] Loading FastFile: intro (0x44 | 0x0)
+[   1404978] Could not load map entities file [maps/intro.d3dbsp] as a rawfile
+[   1405009] Waited 3074 msec for asset 'maps/intro.d3dbsp' of type 'col_map_sp'.
+[   1405044] Compiling rawfile 'maps/_names'
+[   1405110] Compiling rawfile 'maps/_loadout'
+[   1406775] Waited 1602 msec for asset '18672' of type 'scriptfile'.
+[   1406817] Compiling rawfile 'maps/intro_anim'
+[   1406833] Compiling rawfile 'maps/intro_code'
+[   1406912] Compiling rawfile 'aitype/enemy_opforce_india_ak47'
+[   1406913] Compiling rawfile 'character/intro/enemies/character_pmc_assault_rnd'
+[   1406914] Compiling rawfile 'character/intro/enemies/character_pmc_assault_a'
+[   1406914] Compiling rawfile 'character/intro/enemies/character_pmc_assault_b'
+[   1406914] Compiling rawfile 'character/intro/enemies/character_pmc_assault_c'
+[   1406915] Compiling rawfile 'aitype/ally_hero_soap_intro'
+[   1406915] Compiling rawfile 'character/intro/allies/character_russian_rpg'
+[   1406916] Compiling rawfile 'aitype/enemy_opforce_india_lmg'
+[   1406917] Compiling rawfile 'character/intro/enemies/character_pmc_lmg_rnd'
+[   1406917] Compiling rawfile 'character/intro/enemies/character_pmc_lmg_a'
+[   1406918] Compiling rawfile 'character/intro/enemies/character_pmc_lmg_b'
+[   1406918] Compiling rawfile 'aitype/ally_intro_russian_ar'
+[   1406919] Compiling rawfile 'character/intro/allies/character_russian_assault_rnd'
+[   1406919] Compiling rawfile 'character/intro/allies/character_russian_assault_b'
+[   1406921] Compiling rawfile 'aitype/ally_hero_price_intro'
+[   1406921] Compiling rawfile 'character/intro/allies/character_russian_smg_a'
+[   1406922] Compiling rawfile 'aitype/ally_hero_nikolai_intro'
+[   1406922] Compiling rawfile 'character/intro/allies/character_russian_shotgun_a'
+[   1406923] Compiling rawfile 'aitype/ally_intro_russian_rpg'
+[   1406926] Compiling rawfile 'aitype/ally_intro_russian_lmg'
+[   1406927] Compiling rawfile 'character/intro/allies/character_russian_lmg_a'
+[   1406927] Compiling rawfile 'aitype/enemy_opforce_india_p90'
+[   1406928] Compiling rawfile 'character/intro/enemies/character_pmc_smg_rnd'
+[   1406929] Compiling rawfile 'character/intro/enemies/character_pmc_smg_a'
+[   1406930] Compiling rawfile 'character/intro/enemies/character_pmc_smg_b'
+[   1406930] Compiling rawfile 'aitype/enemy_opforce_india_shotgun'
+[   1406931] Compiling rawfile 'character/intro/enemies/character_pmc_shotgun_rnd'
+[   1406932] Compiling rawfile 'character/intro/enemies/character_pmc_shotgun_a'
+[   1406933] Compiling rawfile 'character/intro/enemies/character_pmc_shotgun_b'
+[   1406933] Compiling rawfile 'aitype/ally_hero_yuri_intro'
+[   1406941] Compiling rawfile 'aitype/enemy_opforce_india_rpg'
+[   1406942] Compiling rawfile 'character/intro/enemies/character_pmc_rpg'
+[   1406958] Compiling rawfile 'aitype/ally_intro_russian_shotgun'
+[   1406964] Scanning directory 'scripts' for custom GSC scripts...
+[   1406969] Scanning directory 'scripts/sp' for custom GSC scripts...
+[   1406975] Loading script _cp.gsc...
+[   1406975] Compiling rawfile 'scripts/sp/_cp'
+[   1406976] Script scripts/sp/_cp.gsc loaded successfully
+[   1406976] Loaded 'scripts/sp/_cp::main'
+[   1406976] Scanning directory 'scripts/sp/sp_intro' for custom GSC scripts...
+[   1406981] Scanning directory 'scripts/sp/campaign' for custom GSC scripts...
+[   1407031] Could not load hitloc damage table [info/ai_lochit_dmgtable] as a rawfile
+[   1407126] Executing 'scripts/sp/_cp::main'
+[   1407139] Not allowing the client to override dvar 'cg_fovScale'
+[   1412950] Waited 5792 msec for asset 'body_shadow_co_assault' of type 'xmodel'.
+[   1413419] Could not load graph [aim_assist/view_input_0.graph] as a rawfile
+[   1413419] Could not load graph [aim_assist/view_input_1.graph] as a rawfile
+[   1413420] Could not load graph [aim_assist/view_input_2.graph] as a rawfile
+[   1413420] Could not load graph [aim_assist/view_input_3.graph] as a rawfile
+[   1440256] Unloaded fastfile intro
+[   1440284] Unloaded fastfile sp_intro
+[   1440284] Unloaded fastfile patch_sp_intro
+[   1440318] Loading FastFile: ui (0x2 | 0x0)
+[   1440479] Waited 121 msec for asset 'ui/menus.txt' of type 'menufile'.
+[   3473104] Unloaded fastfile ui
+[   3473123] Loading FastFile: patch_sp_ny_manhattan (0x4 | 0x0)
+[   3473123] Loading FastFile: english_sp_ny_manhattan (0x4 | 0x0)
+[   3473123] Loading FastFile: sp_ny_manhattan (0x4 | 0x0)
+[   3475252] Loading FastFile: patch_ny_manhattan (0x4 | 0x0)
+[   3475252] Loading FastFile: english_ny_manhattan (0x4 | 0x0)
+[   3475252] Loading FastFile: ny_manhattan (0x44 | 0x0)
+[   3478968] Could not load map entities file [maps/ny_manhattan.d3dbsp] as a rawfile
+[   3478992] Waited 3704 msec for asset 'maps/ny_manhattan.d3dbsp' of type 'col_map_sp'.
+[   3479039] Compiling rawfile 'maps/_names'
+[   3479116] Compiling rawfile 'maps/_loadout'
+[   3479673] Waited 487 msec for asset '1647' of type 'scriptfile'.
+[   3479674] Compiling rawfile 'maps/ny_manhattan'
+[   3479697] Compiling rawfile 'maps/ny_manhattan_anim'
+[   3479709] Compiling rawfile 'maps/ny_manhattan_code_intro'
+[   3479751] Compiling rawfile 'aitype/ally_rangers_m4'
+[   3516287] Waited 36535 msec for asset 'character/character_russian_rnd' of type 'scriptfile'.
+[   3516789] Unloaded fastfile ny_manhattan
+[   3516817] Unloaded fastfile sp_ny_manhattan
+[   3516838] Loading FastFile: ui (0x2 | 0x0)
+[   3516990] Waited 114 msec for asset 'ui/menus.txt' of type 'menufile'.
+[   3678575] Unloaded fastfile ui
+[   3678593] Loading FastFile: patch_sp_ny_manhattan (0x4 | 0x0)
+[   3678593] Loading FastFile: english_sp_ny_manhattan (0x4 | 0x0)
+[   3678593] Loading FastFile: sp_ny_manhattan (0x4 | 0x0)
+[   3679864] Loading FastFile: patch_ny_manhattan (0x4 | 0x0)
+[   3679864] Loading FastFile: english_ny_manhattan (0x4 | 0x0)
+[   3679864] Loading FastFile: ny_manhattan (0x44 | 0x0)
+[   3683158] Could not load map entities file [maps/ny_manhattan.d3dbsp] as a rawfile
+[   3683180] Waited 3279 msec for asset 'maps/ny_manhattan.d3dbsp' of type 'col_map_sp'.
+[   3683223] Compiling rawfile 'maps/_names'
+[   3683293] Compiling rawfile 'maps/_loadout'
+[   3683740] Waited 381 msec for asset '1647' of type 'scriptfile'.
+[   3683741] Compiling rawfile 'maps/ny_manhattan'
+[   3683767] Compiling rawfile 'maps/ny_manhattan_anim'
+[   3683789] Compiling rawfile 'maps/ny_manhattan_code_intro'
+[   3683826] Compiling rawfile 'aitype/ally_rangers_m4'
+[   3683827] Compiling rawfile 'character/ny_man/allies/character_russian_rnd'
+[   3689754] Waited 5926 msec for asset 'character/ny_man/enemies/character_russian_assault_a' of type 'scriptfile'.
+[   3690261] Unloaded fastfile ny_manhattan
+[   3690287] Unloaded fastfile sp_ny_manhattan
+[   3690311] Loading FastFile: ui (0x2 | 0x0)
+[   3690527] Waited 180 msec for asset 'ui/menus.txt' of type 'menufile'.
+[   3763917] Unloaded fastfile ui
+[   3763937] Loading FastFile: patch_sp_ny_manhattan (0x4 | 0x0)
+[   3763937] Loading FastFile: english_sp_ny_manhattan (0x4 | 0x0)
+[   3763937] Loading FastFile: sp_ny_manhattan (0x4 | 0x0)
+[   3765248] Loading FastFile: patch_ny_manhattan (0x4 | 0x0)
+[   3765248] Loading FastFile: english_ny_manhattan (0x4 | 0x0)
+[   3765248] Loading FastFile: ny_manhattan (0x44 | 0x0)
+[   3768548] Could not load map entities file [maps/ny_manhattan.d3dbsp] as a rawfile
+[   3768568] Waited 3283 msec for asset 'maps/ny_manhattan.d3dbsp' of type 'col_map_sp'.
+[   3768627] Compiling rawfile 'maps/_names'
+[   3768695] Compiling rawfile 'maps/_loadout'
+[   3769124] Waited 379 msec for asset '1647' of type 'scriptfile'.
+[   3769125] Compiling rawfile 'maps/ny_manhattan'
+[   3769147] Compiling rawfile 'maps/ny_manhattan_anim'
+[   3769158] Compiling rawfile 'maps/ny_manhattan_code_intro'
+[   3769190] Compiling rawfile 'aitype/ally_rangers_m4'
+[   3769191] Compiling rawfile 'character/ny_man/allies/character_russian_rnd'
+[   3769191] Compiling rawfile 'character/ny_man/allies/character_russian_assault_a'
+[   3769192] Compiling rawfile 'character/ny_man/allies/character_russian_lmg_a'
+[   3769192] Compiling rawfile 'character/ny_man/allies/character_russian_rpg_a'
+[   3769193] Compiling rawfile 'character/ny_man/allies/character_russian_shotgun_a'
+[   3769202] Compiling rawfile 'aitype/ally_delta_multicam_mp5'
+[   3769210] Compiling rawfile 'aitype/ally_hero_grinch_delta'
+[   3769211] Compiling rawfile 'aitype/ally_hero_truck_delta_m4'
+[   3769213] Compiling rawfile 'aitype/ally_hero_sandman_delta_manhattan'
+[   3769217] Scanning directory 'scripts' for custom GSC scripts...
+[   3769221] Scanning directory 'scripts/sp' for custom GSC scripts...
+[   3769226] Loading script _cp.gsc...
+[   3769226] Compiling rawfile 'scripts/sp/_cp'
+[   3769227] Script scripts/sp/_cp.gsc loaded successfully
+[   3769227] Loaded 'scripts/sp/_cp::main'
+[   3769227] Scanning directory 'scripts/sp/sp_ny_manhattan' for custom GSC scripts...
+[   3769231] Scanning directory 'scripts/sp/campaign' for custom GSC scripts...
+[   3769277] Could not load hitloc damage table [info/ai_lochit_dmgtable] as a rawfile
+[   3769279] Could not load graph [vehicle/tank_accel.graph] as a rawfile
+[   3769366] Executing 'scripts/sp/_cp::main'
+[   3769377] Not allowing the client to override dvar 'cg_fovScale'
+[   3775011] Waited 5624 msec for asset 'viewhands_sniper_udt' of type 'xmodel'.
+[   3775401] Could not load graph [aim_assist/view_input_0.graph] as a rawfile
+[   3775401] Could not load graph [aim_assist/view_input_1.graph] as a rawfile
+[   3775402] Could not load graph [aim_assist/view_input_2.graph] as a rawfile
+[   3775402] Could not load graph [aim_assist/view_input_3.graph] as a rawfile
+[   3847237] Unloaded fastfile ny_manhattan
+[   3847277] Unloaded fastfile sp_ny_manhattan
+[   3847311] Loading FastFile: ui (0x2 | 0x0)
+[   3847469] Waited 115 msec for asset 'ui/menus.txt' of type 'menufile'.
+[   3915214] Unloaded fastfile ui
+[   3915232] Loading FastFile: patch_sp_ny_manhattan (0x4 | 0x0)
+[   3915232] Loading FastFile: english_sp_ny_manhattan (0x4 | 0x0)
+[   3915232] Loading FastFile: sp_ny_manhattan (0x4 | 0x0)
+[   3916411] Loading FastFile: patch_ny_manhattan (0x4 | 0x0)
+[   3916411] Loading FastFile: english_ny_manhattan (0x4 | 0x0)
+[   3916411] Loading FastFile: ny_manhattan (0x44 | 0x0)
+[   3919499] Could not load map entities file [maps/ny_manhattan.d3dbsp] as a rawfile
+[   3919522] Waited 3072 msec for asset 'maps/ny_manhattan.d3dbsp' of type 'col_map_sp'.
+[   3919582] Compiling rawfile 'maps/_names'
+[   3919648] Compiling rawfile 'maps/_loadout'
+[   3920086] Waited 375 msec for asset '1647' of type 'scriptfile'.
+[   3920087] Compiling rawfile 'maps/ny_manhattan'
+[   3920109] Compiling rawfile 'maps/ny_manhattan_anim'
+[   3920127] Compiling rawfile 'maps/ny_manhattan_code_intro'
+[   3920171] Compiling rawfile 'aitype/ally_rangers_m4'
+[   3920173] Compiling rawfile 'character/ny_man/allies/character_russian_rnd'
+[   3920174] Compiling rawfile 'character/ny_man/allies/character_russian_assault_a'
+[   3920175] Compiling rawfile 'character/ny_man/allies/character_russian_lmg_a'
+[   3920175] Compiling rawfile 'character/ny_man/allies/character_russian_rpg_a'
+[   3920175] Compiling rawfile 'character/ny_man/allies/character_russian_shotgun_a'
+[   3920187] Compiling rawfile 'aitype/ally_delta_multicam_mp5'
+[   3920197] Compiling rawfile 'aitype/ally_hero_grinch_delta'
+[   3920198] Compiling rawfile 'aitype/ally_hero_truck_delta_m4'
+[   3920199] Compiling rawfile 'aitype/ally_hero_sandman_delta_manhattan'
+[   3920203] Scanning directory 'scripts' for custom GSC scripts...
+[   3920213] Scanning directory 'scripts/sp' for custom GSC scripts...
+[   3920219] Loading script _cp.gsc...
+[   3920220] Compiling rawfile 'scripts/sp/_cp'
+[   3920220] Script scripts/sp/_cp.gsc loaded successfully
+[   3920220] Loaded 'scripts/sp/_cp::main'
+[   3920220] Scanning directory 'scripts/sp/sp_ny_manhattan' for custom GSC scripts...
+[   3920228] Scanning directory 'scripts/sp/campaign' for custom GSC scripts...
+[   3920300] Could not load hitloc damage table [info/ai_lochit_dmgtable] as a rawfile
+[   3920301] Could not load graph [vehicle/tank_accel.graph] as a rawfile
+[   3920401] Executing 'scripts/sp/_cp::main'
+[   3920414] No

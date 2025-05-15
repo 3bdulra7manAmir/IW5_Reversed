@@ -271,8 +271,8 @@ _id_1C65( var_0 )
         level.player giveweapon( "flash_grenade" );
         level.player setoffhandsecondaryclass( "flash" );
         level.player switchtoweapon( "ak47_silencer_reflex" );
-        level.player setviewmodel( "viewhands_sniper_udt" );
-        //level.player setviewmodel( "viewmodel_base_viewhands" );
+        //level.player setviewmodel( "viewhands_sniper_udt" );
+        level.player setviewmodel( "viewmodel_base_viewhands" );
         level._id_0BA2 = "shadowcompany";
         return;
     }
