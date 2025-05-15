@@ -22,7 +22,11 @@ main()
     }
 
     self.weapon = "none";
-    character\character_shadow_co_hero_soap::main();
+	if(level.script == "intro" || level.script == "sp_intro")
+	{
+		character\intro\allies\character_russian_rpg::main();
+	}
+    
 }
 
 spawner()
@@ -32,6 +36,6 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_hero_soap::precache();
+    character\intro\allies\character_russian_rpg::precache();
     precacheitem( "deserteagle" );
 }

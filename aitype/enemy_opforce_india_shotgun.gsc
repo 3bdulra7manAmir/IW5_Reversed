@@ -5,7 +5,7 @@ main()
 {
     self._id_3AA1 = "";
     self._id_3AA2 = "";
-    self.team = "allies";
+    self.team = "axis";
     self.type = "human";
     self._id_218D = "regular";
     self.accuracy = 0.2;
@@ -24,38 +24,37 @@ main()
     switch ( codescripts\character::get_random_weapon( 4 ) )
     {
         case 0:
-            self.weapon = "ak47";
+            self.weapon = "spas12";
             break;
         case 1:
-            self.weapon = "ak47_acog";
+            self.weapon = "spas12_eotech";
             break;
         case 2:
-            self.weapon = "ak47_eotech";
+            self.weapon = "spas12_grip";
             break;
         case 3:
-            self.weapon = "ak47_reflex";
+            self.weapon = "spas12_reflex";
             break;
     }
-	
-	if(level.script == "intro" || level.script == "sp_intro")
+
+    if(level.script == "intro" || level.script == "sp_intro")
 	{
-		character\intro\allies\character_russian_assault_rnd::main();
+		character\intro\enemies\character_pmc_shotgun_rnd::main();
 	}
-    
 }
 
 spawner()
 {
-    self setspawnerteam( "allies" );
+    self setspawnerteam( "axis" );
 }
 
 precache()
 {
-    character\intro\allies\character_russian_assault_rnd::precache();
-    precacheitem( "ak47" );
-    precacheitem( "ak47_acog" );
-    precacheitem( "ak47_eotech" );
-    precacheitem( "ak47_reflex" );
+    character\intro\enemies\character_pmc_shotgun_rnd::precache();
+    precacheitem( "spas12" );
+    precacheitem( "spas12_eotech" );
+    precacheitem( "spas12_grip" );
+    precacheitem( "spas12_reflex" );
     precacheitem( "mp412" );
     precacheitem( "fraggrenade" );
 }

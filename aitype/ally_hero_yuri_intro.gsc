@@ -22,7 +22,11 @@ main()
     }
 
     self.weapon = "m4_grunt";
-    character\character_shadow_co_hero_yuri::main();
+	if(level.script == "intro" || level.script == "sp_intro")
+	{
+		character\intro\allies\character_russian_lmg_a::main();
+	}
+    
 }
 
 spawner()
@@ -32,7 +36,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_hero_yuri::precache();
+    character\intro\allies\character_russian_lmg_a::precache();
     precacheitem( "m4_grunt" );
     precacheitem( "deserteagle" );
     precacheitem( "fraggrenade" );

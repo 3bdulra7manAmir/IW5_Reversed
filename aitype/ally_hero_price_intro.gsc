@@ -22,7 +22,11 @@ main()
     }
 
     self.weapon = "m4_grenadier";
-    character\character_shadow_co_hero_price_hat::main();
+	if(level.script == "intro" || level.script == "sp_intro")
+	{
+		character\intro\allies\character_russian_smg_a::main();
+	}
+    
 }
 
 spawner()
@@ -32,7 +36,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_hero_price_hat::precache();
+    character\intro\allies\character_russian_smg_a::precache();
     precacheitem( "m4_grenadier" );
     precacheitem( "m203_m4" );
     precacheitem( "deserteagle" );

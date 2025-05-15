@@ -31,7 +31,11 @@ main()
             break;
     }
 
-    character\character_shadow_co_rnd::main();
+	if(level.script == "intro" || level.script == "sp_intro")
+	{
+		character\intro\allies\character_russian_lmg_a::main();
+	}
+    
 }
 
 spawner()
@@ -41,7 +45,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_rnd::precache();
+    character\intro\allies\character_russian_lmg_a::precache();
     precacheitem( "pecheneg" );
     precacheitem( "mg36" );
     precacheitem( "mp412" );

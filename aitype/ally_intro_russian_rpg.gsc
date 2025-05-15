@@ -22,7 +22,11 @@ main()
     }
 
     self.weapon = "rpg";
-    character\character_shadow_co_rnd::main();
+	if(level.script == "intro" || level.script == "sp_intro")
+	{
+		character\intro\allies\character_russian_rpg::main();
+	}
+    
 }
 
 spawner()
@@ -32,7 +36,7 @@ spawner()
 
 precache()
 {
-    character\character_shadow_co_rnd::precache();
+    character\intro\allies\character_russian_rpg::precache();
     precacheitem( "rpg" );
     precacheitem( "ak47" );
     precacheitem( "mp412" );

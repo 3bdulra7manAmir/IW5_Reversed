@@ -5,7 +5,7 @@ main()
 {
     self._id_3AA1 = "";
     self._id_3AA2 = "";
-    self.team = "allies";
+    self.team = "axis";
     self.type = "human";
     self._id_218D = "regular";
     self.accuracy = 0.2;
@@ -21,41 +21,44 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    switch ( codescripts\character::get_random_weapon( 4 ) )
+    switch ( codescripts\character::get_random_weapon( 5 ) )
     {
         case 0:
-            self.weapon = "ak47";
+            self.weapon = "p90";
             break;
         case 1:
-            self.weapon = "ak47_acog";
+            self.weapon = "p90_acog";
             break;
         case 2:
-            self.weapon = "ak47_eotech";
+            self.weapon = "p90_eotech";
             break;
         case 3:
-            self.weapon = "ak47_reflex";
+            self.weapon = "p90_reflex";
+            break;
+        case 4:
+            self.weapon = "p90_silencer";
             break;
     }
-	
-	if(level.script == "intro" || level.script == "sp_intro")
+
+    if(level.script == "intro" || level.script == "sp_intro")
 	{
-		character\intro\allies\character_russian_assault_rnd::main();
+		character\intro\enemies\character_pmc_smg_rnd::main();
 	}
-    
 }
 
 spawner()
 {
-    self setspawnerteam( "allies" );
+    self setspawnerteam( "axis" );
 }
 
 precache()
 {
-    character\intro\allies\character_russian_assault_rnd::precache();
-    precacheitem( "ak47" );
-    precacheitem( "ak47_acog" );
-    precacheitem( "ak47_eotech" );
-    precacheitem( "ak47_reflex" );
+    character\intro\enemies\character_pmc_smg_rnd::precache();
+    precacheitem( "p90" );
+    precacheitem( "p90_acog" );
+    precacheitem( "p90_eotech" );
+    precacheitem( "p90_reflex" );
+    precacheitem( "p90_silencer" );
     precacheitem( "mp412" );
     precacheitem( "fraggrenade" );
 }
