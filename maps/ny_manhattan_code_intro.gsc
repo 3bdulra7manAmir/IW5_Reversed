@@ -461,7 +461,8 @@ _id_45C6()
     var_2 = getent( "crashed_hind_deadguy", "targetname" );
     var_2._id_1032 = "hind_deadguy";
     var_2 maps\_utility::_id_2629();
-    var_2 attach( "head_russian_military_b", "" );
+    //var_2 attach( "head_russian_military_b", "" );
+    var_2 attach( "head_delta_elite_c", "" );
     var_1 thread maps\_anim::_id_11CF( var_2, "dead_idle" );
     var_0 thread maps\_anim::_id_124E( var_0, "blades_spin", "stop_loop" );
     var_3 = getent( "ny_hind_crash_wall", "targetname" );
@@ -1352,7 +1353,8 @@ _id_45F9()
     var_7 = getent( "humvee_deadguy", "targetname" );
     var_7._id_1032 = "humvee_deadguy";
     var_7 maps\_utility::_id_2629();
-    var_7 attach( "head_rangers_b", "" );
+    //var_7 attach( "head_rangers_b", "" );
+    var_7 attach( "head_russian_military_bb", "" );
     var_0 thread maps\_anim::_id_11CF( var_7, "dead_idle" );
     var_1 setflaggedanimrestart( "blah", level._id_0C59["intro_humvee"]["wheel_loop"][0], 1, 1 );
     var_1 setflaggedanimrestart( "blargh", level._id_0C59["intro_humvee"]["ny_intro"], 1, 1 );

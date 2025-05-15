@@ -8,10 +8,10 @@ main()
         case 1:
             character\ny_man\allies\character_russian_lmg_a::main();
             break;
-        case 0:
+        case 2:
             character\ny_man\allies\character_russian_rpg_a::main();
             break;
-        case 1:
+        case 3:
             character\ny_man\allies\character_russian_shotgun_a::main();
             break;
     }

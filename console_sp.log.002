@@ -1,0 +1,183 @@
+[      1111] Loading FastFile: code_pre_gfx (0x1 | 0x0)
+[      1840] Loading FastFile: code_post_gfx (0x0 | 0x0)
+[      1840] Loading FastFile: patch (0x0 | 0x0)
+[      2014] Loading FastFile: ui (0x2 | 0x0)
+[      2014] Loading FastFile: common (0x1 | 0x0)
+[      2381] Working directory: E:\iw5
+[    464955] Unloaded fastfile ui
+[    464971] Loading FastFile: patch_sp_ny_harbor (0x4 | 0x0)
+[    464971] Loading FastFile: english_sp_ny_harbor (0x4 | 0x0)
+[    464971] Loading FastFile: sp_ny_harbor (0x4 | 0x0)
+[    466112] Loading FastFile: patch_ny_harbor (0x4 | 0x0)
+[    466112] Loading FastFile: english_ny_harbor (0x4 | 0x0)
+[    466112] Loading FastFile: ny_harbor (0x44 | 0x0)
+[    469107] Could not load map entities file [maps/ny_harbor.d3dbsp] as a rawfile
+[    469126] Waited 2975 msec for asset 'maps/ny_harbor.d3dbsp' of type 'col_map_sp'.
+[    469504] Compiling rawfile 'maps/_names'
+[    469558] Compiling rawfile 'maps/_loadout'
+[    470889] Waited 1270 msec for asset '18788' of type 'scriptfile'.
+[    470909] Compiling rawfile 'maps/ny_harbor_anim'
+[    470926] Compiling rawfile 'maps/ny_harbor_code_sub'
+[    470957] Compiling rawfile 'aitype/enemy_opforce_widowmaker_smg'
+[    470958] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_rnd'
+[    470959] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_a'
+[    470959] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_b'
+[    470959] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_c'
+[    470959] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_d'
+[    470960] Compiling rawfile 'aitype/enemy_opforce_widowmaker_shtgn'
+[    470962] Compiling rawfile 'aitype/enemy_villain_widowmaker_captain'
+[    470965] Compiling rawfile 'aitype/enemy_opforce_manhattan_ak47'
+[    470966] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_rnd'
+[    470966] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_a'
+[    470966] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_b'
+[    470967] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_c'
+[    470967] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_d'
+[    474958] Waited 3990 msec for asset 'character/ny_man/enemies/character_seals_assault_rnd' of type 'scriptfile'.
+[    475465] Unloaded fastfile ny_harbor
+[    475493] Unloaded fastfile sp_ny_harbor
+[    475496] Unloaded fastfile patch_sp_ny_harbor
+[    475515] Loading FastFile: ui (0x2 | 0x0)
+[    857893] Unloaded fastfile ui
+[    857904] Loading FastFile: patch_sp_ny_harbor (0x4 | 0x0)
+[    857904] Loading FastFile: english_sp_ny_harbor (0x4 | 0x0)
+[    857904] Loading FastFile: sp_ny_harbor (0x4 | 0x0)
+[    859105] Loading FastFile: patch_ny_harbor (0x4 | 0x0)
+[    859105] Loading FastFile: english_ny_harbor (0x4 | 0x0)
+[    859105] Loading FastFile: ny_harbor (0x44 | 0x0)
+[    862915] Could not load map entities file [maps/ny_harbor.d3dbsp] as a rawfile
+[    862921] Waited 3778 msec for asset 'maps/ny_harbor.d3dbsp' of type 'col_map_sp'.
+[    862960] Compiling rawfile 'maps/_names'
+[    863003] Compiling rawfile 'maps/_loadout'
+[    864573] Waited 1525 msec for asset '18788' of type 'scriptfile'.
+[    864599] Compiling rawfile 'maps/ny_harbor_anim'
+[    864614] Compiling rawfile 'maps/ny_harbor_code_sub'
+[    864643] Compiling rawfile 'aitype/enemy_opforce_widowmaker_smg'
+[    864644] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_rnd'
+[    864644] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_a'
+[    864644] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_b'
+[    864645] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_c'
+[    864645] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_d'
+[    864645] Compiling rawfile 'aitype/enemy_opforce_widowmaker_shtgn'
+[    864647] Compiling rawfile 'aitype/enemy_villain_widowmaker_captain'
+[    864650] Compiling rawfile 'aitype/enemy_opforce_manhattan_ak47'
+[    864651] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_rnd'
+[    864651] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_a'
+[    864652] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_b'
+[    864652] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_c'
+[    864652] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_d'
+[    864654] Compiling rawfile 'aitype/ally_delta_udt_dive'
+[    864655] Compiling rawfile 'character/ny_har/allies/character_russian_smg_a'
+[    864657] Compiling rawfile 'aitype/ally_delta_udt_mp5'
+[    864659] Compiling rawfile 'aitype/ally_hero_sandman_delta_udt_dive'
+[    864659] Compiling rawfile 'character/ny_har/allies/character_makarov_assault'
+[    864659] Compiling rawfile 'aitype/ally_hero_sandman_delta_udt_mp5'
+[    864661] Scanning directory 'scripts' for custom GSC scripts...
+[    864664] Scanning directory 'scripts/sp' for custom GSC scripts...
+[    864668] Loading script _cp.gsc...
+[    864668] Compiling rawfile 'scripts/sp/_cp'
+[    864669] Script scripts/sp/_cp.gsc loaded successfully
+[    864669] Loaded 'scripts/sp/_cp::main'
+[    864669] Scanning directory 'scripts/sp/sp_ny_harbor' for custom GSC scripts...
+[    864672] Scanning directory 'scripts/sp/campaign' for custom GSC scripts...
+[    864709] Could not load hitloc damage table [info/ai_lochit_dmgtable] as a rawfile
+[    864709] Could not load bullet penetration table [info/bullet_penetration_sp] as a rawfile
+[    864719] Could not load graph [vehicle/zodiac_accel.graph] as a rawfile
+[    864719] Could not load graph [vehicle/zodiac_accel.graph] as a rawfile
+[    868336] Waited 3595 msec for asset 'body_hero_truck_delta' of type 'xmodel'.
+[    868337] Executing 'scripts/sp/_cp::main'
+[    868347] Not allowing the client to override dvar 'cg_fovScale'
+[    868780] Could not load graph [aim_assist/view_input_0.graph] as a rawfile
+[    868781] Could not load graph [aim_assist/view_input_1.graph] as a rawfile
+[    868782] Could not load graph [aim_assist/view_input_2.graph] as a rawfile
+[    868782] Could not load graph [aim_assist/view_input_3.graph] as a rawfile
+[    962246] ]map_restart
+[    962365] Compiling rawfile 'maps/_names'
+[    962404] Compiling rawfile 'maps/_loadout'
+[    962436] Compiling rawfile 'maps/ny_harbor_anim'
+[    962450] Compiling rawfile 'maps/ny_harbor_code_sub'
+[    962477] Compiling rawfile 'aitype/enemy_opforce_widowmaker_smg'
+[    962477] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_rnd'
+[    962477] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_a'
+[    962477] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_b'
+[    962479] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_c'
+[    962479] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_d'
+[    962479] Compiling rawfile 'aitype/enemy_opforce_widowmaker_shtgn'
+[    962481] Compiling rawfile 'aitype/enemy_villain_widowmaker_captain'
+[    962484] Compiling rawfile 'aitype/enemy_opforce_manhattan_ak47'
+[    962484] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_rnd'
+[    962485] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_a'
+[    962485] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_b'
+[    962485] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_c'
+[    962486] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_d'
+[    962487] Compiling rawfile 'aitype/ally_delta_udt_dive'
+[    962487] Compiling rawfile 'character/ny_har/allies/character_russian_smg_a'
+[    962489] Compiling rawfile 'aitype/ally_delta_udt_mp5'
+[    962490] Compiling rawfile 'aitype/ally_hero_sandman_delta_udt_dive'
+[    962491] Compiling rawfile 'character/ny_har/allies/character_makarov_assault'
+[    962491] Compiling rawfile 'aitype/ally_hero_sandman_delta_udt_mp5'
+[    962492] Scanning directory 'scripts' for custom GSC scripts...
+[    962496] Scanning directory 'scripts/sp' for custom GSC scripts...
+[    962500] Loading script _cp.gsc...
+[    962500] Compiling rawfile 'scripts/sp/_cp'
+[    962500] Script scripts/sp/_cp.gsc loaded successfully
+[    962500] Loaded 'scripts/sp/_cp::main'
+[    962500] Scanning directory 'scripts/sp/sp_ny_harbor' for custom GSC scripts...
+[    962504] Scanning directory 'scripts/sp/campaign' for custom GSC scripts...
+[    962526] Could not load hitloc damage table [info/ai_lochit_dmgtable] as a rawfile
+[    962535] Could not load graph [vehicle/zodiac_accel.graph] as a rawfile
+[    962535] Could not load graph [vehicle/zodiac_accel.graph] as a rawfile
+[    962556] Executing 'scripts/sp/_cp::main'
+[    962565] Not allowing the client to override dvar 'cg_fovScale'
+[    996242] Could not load hitloc damage table [info/ai_lochit_dmgtable] as a rawfile
+[    996257] Could not load graph [vehicle/zodiac_accel.graph] as a rawfile
+[    996257] Could not load graph [vehicle/zodiac_accel.graph] as a rawfile
+[    996276] Could not load graph [vehicle/zodiac_accel.graph] as a rawfile
+[    996276] Could not load graph [vehicle/zodiac_accel.graph] as a rawfile
+[   1010078] Unloaded fastfile ny_harbor
+[   1010100] Unloaded fastfile sp_ny_harbor
+[   1010102] Unloaded fastfile patch_sp_ny_harbor
+[   1010133] Loading FastFile: ui (0x2 | 0x0)
+[   1010274] Waited 104 msec for asset 'ui/menus.txt' of type 'menufile'.
+[   1010665] Unloaded fastfile ui
+[   1010777] Unloaded fastfile common
+[   1010783] Unloaded fastfile patch
+[   1010785] Unloaded fastfile code_post_gfx
+[   1010785] Unloaded fastfile code_pre_gfx
+[   1011171] Loading FastFile: code_pre_gfx (0x1 | 0x0)
+[   1011202] Loading FastFile: code_post_gfx (0x0 | 0x0)
+[   1011202] Loading FastFile: patch (0x0 | 0x0)
+[   1011377] Loading FastFile: ui (0x2 | 0x0)
+[   1011377] Loading FastFile: common (0x1 | 0x0)
+[   1016929] Unloaded fastfile ui
+[   1016940] Loading FastFile: patch_sp_ny_harbor (0x4 | 0x0)
+[   1016940] Loading FastFile: english_sp_ny_harbor (0x4 | 0x0)
+[   1016940] Loading FastFile: sp_ny_harbor (0x4 | 0x0)
+[   1018030] Loading FastFile: patch_ny_harbor (0x4 | 0x0)
+[   1018030] Loading FastFile: english_ny_harbor (0x4 | 0x0)
+[   1018030] Loading FastFile: ny_harbor (0x44 | 0x0)
+[   1021302] Could not load map entities file [maps/ny_harbor.d3dbsp] as a rawfile
+[   1021379] Waited 3311 msec for asset 'maps/ny_harbor.d3dbsp' of type 'col_map_sp'.
+[   1021461] Compiling rawfile 'maps/_names'
+[   1021519] Compiling rawfile 'maps/_loadout'
+[   1023217] Waited 1663 msec for asset '18788' of type 'scriptfile'.
+[   1023244] Compiling rawfile 'maps/ny_harbor_anim'
+[   1023259] Compiling rawfile 'maps/ny_harbor_code_sub'
+[   1023288] Compiling rawfile 'aitype/enemy_opforce_widowmaker_smg'
+[   1023288] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_rnd'
+[   1023289] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_a'
+[   1023289] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_b'
+[   1023289] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_c'
+[   1023289] Compiling rawfile 'character/ny_har/enemies/character_seals_assault_d'
+[   1023291] Compiling rawfile 'aitype/enemy_opforce_widowmaker_shtgn'
+[   1023292] Compiling rawfile 'aitype/enemy_villain_widowmaker_captain'
+[   1023295] Compiling rawfile 'aitype/enemy_opforce_manhattan_ak47'
+[   1023296] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_rnd'
+[   1023296] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_a'
+[   1023297] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_b'
+[   1023297] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_c'
+[   1023297] Compiling rawfile 'character/ny_man/enemies/character_delta_assault_d'
+[   1023299] Compiling rawfile 'aitype/ally_delta_udt_dive'
+[   1023300] Compiling rawfile 'character/ny_har/allies/character_russian_smg_a'
+[   1023302] Compiling rawfile 'aitype/ally_delta_udt_mp5'
+[   1023303] Compiling rawfile 'aitype/ally_hero_sandman_delta_udt_dive'
+[   1023304] Compiling rawfile 'character/ny_har/allie

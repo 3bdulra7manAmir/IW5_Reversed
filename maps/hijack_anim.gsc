@@ -379,8 +379,8 @@ _id_5004()
 _id_5B48()
 {
     level._id_1245["test_body"] = #animtree;
-    //level._id_1F90["test_body"] = "viewhands_player_fso";
-    level._id_1F90["test_body"] = "viewhands_player_delta_shg";
+    level._id_1F90["test_body"] = "viewhands_player_fso";
+    //level._id_1F90["test_body"] = "viewhands_player_delta_shg";
     level._id_0C59["test_body"]["zero_g_player"] = %hijack_zero_g_player;
     maps\_anim::_id_1264( "test_body", "people_lurch_left", maps\hijack_airplane::_id_5B0E, "zero_g_player" );
     maps\_anim::_id_1264( "test_body", "plane_dive_down", maps\hijack_airplane::_id_5B10, "zero_g_player" );

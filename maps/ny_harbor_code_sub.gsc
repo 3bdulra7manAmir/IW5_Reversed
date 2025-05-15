@@ -2053,7 +2053,8 @@ _id_4B8B()
     self.script_noteworthy = undefined;
     self.health = 3;
     maps\_utility::_id_2714();
-    var_0 = [ "body_shadow_co_assault", "body_shadow_co_lmg", "body_shadow_co_shotgun" ];
+    //var_0 = [ "body_russian_navy_sleevesrolled", "body_russian_military_rpg_a", "body_russian_naval_assault_aa" ];
+    var_0 = [ "body_russian_navy_sleevesrolled", "body_russian_military_rpg_a", "body_russian_naval_assault_aa" ];
     self setmodel( var_0[randomint( var_0.size )] );
     self._id_0EC6 = 1;
     common_scripts\utility::flag_wait( "ladder_done" );

@@ -8,10 +8,10 @@ main()
         case 1:
             character\ny_man\enemies\character_delta_assault_b::main();
             break;
-        case 0:
+        case 2:
             character\ny_man\enemies\character_delta_assault_c::main();
             break;
-        case 1:
+        case 3:
             character\ny_man\enemies\character_delta_assault_d::main();
             break;
     }

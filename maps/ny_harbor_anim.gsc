@@ -39,8 +39,8 @@ _id_47D9()
     level._id_1245["player_sdv_rig"] = #animtree;
     level._id_1245["player_sdv_legs"] = #animtree;
     level._id_1F90["player_sdv_legs"] = "viewlegs_generic";
-    //level._id_1F90["player_sdv_rig"] = "viewhands_player_udt";
-    level._id_1F90["player_sdv_rig"] = "viewhands_player_delta_shg"; //HERE
+    level._id_1F90["player_sdv_rig"] = "viewhands_player_udt";
+    //level._id_1F90["player_sdv_rig"] = "viewhands_player_delta_shg"; //HERE
     level._id_0C59["player_sdv_rig"]["sdv_idle"][0] = %harbor_player_sdv_idle;
     level._id_0C59["player_sdv_rig"]["sdv"]["idle"] = %harbor_player_sdv_idle;
     level._id_0C59["player_sdv_rig"]["sdv"]["turn_down"] = %harbor_player_sdv_turn_down;
