@@ -7,15 +7,15 @@ _id_1C5B()
         _id_1C65();
 
     level._id_0A82 = 1;
-    precachemodel( "body_shadow_co_assault" );
-    precachemodel( "body_shadow_co_lmg" );
-    precachemodel( "body_shadow_co_smg" );
-    precachemodel( "body_shadow_co_shotgun" );
-    precachemodel( "head_shadow_co_b" );
-    precachemodel( "head_shadow_co_c" );
-    precachemodel( "pb_gas_mask_prop" );
-    precachemodel( "prop_sas_gasmask" );
-    precachemodel( "viewhands_sniper_udt" );
+    //precachemodel( "body_shadow_co_assault" );
+    //precachemodel( "body_shadow_co_lmg" );
+    //precachemodel( "body_shadow_co_smg" );
+    //precachemodel( "body_shadow_co_shotgun" );
+    //precachemodel( "head_shadow_co_b" );
+    //precachemodel( "head_shadow_co_c" );
+    //precachemodel( "pb_gas_mask_prop" );
+    //precachemodel( "prop_sas_gasmask" );
+    //precachemodel( "viewhands_sniper_udt" );
     level notify( "loadout complete" );
 }
 

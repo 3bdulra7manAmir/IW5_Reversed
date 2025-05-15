@@ -3,7 +3,7 @@
 
 main()
 {
-    self setmodel( "body_henchmen_assault_c" );
+    self setmodel( "body_henchmen_shotgun_a" );
     self attach( "head_henchmen_c", "", 1 );
 	self.headmodel = "head_henchmen_c";
     
@@ -12,6 +12,6 @@ main()
 
 precache()
 {
-    precachemodel( "body_henchmen_assault_c" );
+    precachemodel( "body_henchmen_shotgun_a" );
     precacheModel("head_henchmen_c");
 }

@@ -38,6 +38,43 @@ _id_56FB()
     precachemodel( "electronics_pda" );
     precachemodel( "viewhands_fso" );
     precachemodel( "viewhands_player_fso" );
+
+    precachemodel( "head_fso_a" );
+    precachemodel( "head_fso_c" );
+    precachemodel( "head_fso_d" );
+    precachemodel( "head_fso_e" );
+    precachemodel( "head_fso_f" );
+    precachemodel( "head_fso_a_dirty" );
+    precachemodel( "head_fso_c_dirty" );
+    precachemodel( "head_fso_d_dirty" );
+    precachemodel( "head_fso_e_dirty" );
+    precachemodel( "head_fso_f_dirty" );
+    precachemodel( "head_fso_commander_hat" );
+
+    precachemodel( "head_henchmen_a" );
+    precachemodel( "head_henchmen_b" );
+    precachemodel( "head_henchmen_c" );
+    precachemodel( "head_henchmen_cc" );
+
+    precachemodel( "body_fso_vest_b" );
+    precachemodel( "body_fso_vest_a" );
+    precachemodel( "body_fso_vest_c" );
+    precachemodel( "body_fso_vest_d" );
+    precachemodel( "body_fso_vest_e" );
+    precachemodel( "body_fso_vest_b_dirty" );
+    precachemodel( "body_fso_vest_a_dirty" );
+    precachemodel( "body_fso_vest_c_dirty" );
+    precachemodel( "body_fso_vest_d_dirty" );
+    precachemodel( "body_fso_vest_e_dirty" );
+
+    precachemodel( "body_henchmen_assault_d" );
+    precachemodel( "body_henchmen_assault_c" );
+    precachemodel( "body_henchmen_assault_a" );
+    precachemodel( "body_henchmen_assault_b" );
+    precachemodel( "body_henchmen_smg_b" );
+    precachemodel( "body_henchmen_smg_a" );
+    precachemodel( "body_henchmen_shotgun_b" );
+    precachemodel( "body_henchmen_shotgun_a" );
 }
 
 _id_5A62()

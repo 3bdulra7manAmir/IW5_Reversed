@@ -12,7 +12,7 @@ main()
             character\hijack\allies\character_russian_assault_c::main();
             break;
         case 3:
-            character\hijack\allies\character_russian_assault_d::main();
+            character\hijack\allies\character_russian_assault_cc::main();
             break;
     }
     self.voice = "american";
@@ -23,5 +23,5 @@ precache()
 	character\hijack\allies\character_russian_assault_a::precache();
     character\hijack\allies\character_russian_assault_b::precache();
 	character\hijack\allies\character_russian_assault_c::precache();
-    character\hijack\allies\character_russian_assault_d::precache();
+    character\hijack\allies\character_russian_assault_cc::precache();
 }

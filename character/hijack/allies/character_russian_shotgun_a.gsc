@@ -4,8 +4,8 @@
 main()
 {
     self setmodel( "body_henchmen_shotgun_a" );
-    self attach( "head_henchmen_cc", "", 1 );
-	self.headmodel = "head_henchmen_cc";
+    self attach( "head_henchmen_a", "", 1 );
+	self.headmodel = "head_henchmen_a";
     
     self.voice = "american";
 }
@@ -13,5 +13,5 @@ main()
 precache()
 {
     precachemodel( "body_henchmen_shotgun_a" );
-    precacheModel("head_henchmen_cc");
+    precacheModel("head_henchmen_a");
 }
