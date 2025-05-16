@@ -11,7 +11,7 @@ main()
     self.accuracy = 0.2;
     self.health = 100;
     self.secondaryweapon = "";
-    self._id_20A3 = "";
+    self._id_20A3 = "usp_silencer";
     self.grenadeweapon = "fraggrenade";
     self.grenadeammo = 0;
 
@@ -21,10 +21,10 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    self.weapon = "none";
-    if (level.script == "ny_harbor" || level.script == "sp_ny_harbor")
+    self.weapon = "m21_scoped_cloth_silenced";
+    if( level.script == "sp_warlord" || level.script == "warlord" )
     {
-        character\ny_har\allies\character_makarov_assault::main();
+        character\warlord\allies\character_price_smg::main();
     }
 }
 
@@ -35,6 +35,8 @@ spawner()
 
 precache()
 {
-    character\ny_har\allies\character_makarov_assault::precache();
+    character\warlord\allies\character_price_smg::precache();
+    precacheitem( "m21_scoped_cloth_silenced" );
+    precacheitem( "usp_silencer" );
     precacheitem( "fraggrenade" );
 }

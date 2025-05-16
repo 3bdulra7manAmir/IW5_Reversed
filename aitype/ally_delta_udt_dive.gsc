@@ -22,7 +22,10 @@ main()
     }
 
     self.weapon = "none";
-    character\ny_har\allies\character_russian_smg_a::main();
+    if (level.script == "ny_harbor" || level.script == "ny_harbor")
+    {
+        character\ny_har\allies\character_russian_smg_a::main();
+    }
 }
 
 spawner()

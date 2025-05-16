@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "pecheneg";
-        if( level.script == "sp_ny_manhattan" || level.script == "ny_manhattan" )
+    if( level.script == "sp_ny_manhattan" || level.script == "ny_manhattan" )
     {
         character\ny_man\enemies\character_delta_smg_rnd::main();
     }

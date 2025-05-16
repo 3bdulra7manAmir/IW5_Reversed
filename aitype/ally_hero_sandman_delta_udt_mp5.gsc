@@ -22,7 +22,11 @@ main()
     }
 
     self.weapon = "mp5_silencer_reflex_harbor";
-    character\ny_har\allies\character_makarov_assault::main();
+    if (level.script == "ny_harbor" || level.script == "sp_ny_harbor")
+    {
+        character\ny_har\allies\character_makarov_assault::main();
+    }
+    
 }
 
 spawner()

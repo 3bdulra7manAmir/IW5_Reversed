@@ -22,7 +22,10 @@ main()
     }
 
     self.weapon = "striker";
-    character\ny_har\enemies\character_seals_assault_rnd::main();
+    if (level.script == "sp_ny_harbor" || level.script == "ny_harbor")
+    {
+        character\ny_har\enemies\character_seals_assault_rnd::main();
+    }
 }
 
 spawner()

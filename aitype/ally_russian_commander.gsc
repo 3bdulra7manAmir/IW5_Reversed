@@ -22,7 +22,10 @@ main()
     }
 
     self.weapon = "ak74u";
-    character\hijack\allies\character_russian_assault_rnd::main();
+    if (level.script == "sp_hijack" || level.script == "hijack")
+    {
+        character\hijack\allies\character_russian_assault_rnd::main();
+    }
 }
 
 spawner()

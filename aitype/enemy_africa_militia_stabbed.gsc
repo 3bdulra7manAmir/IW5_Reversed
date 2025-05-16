@@ -4,11 +4,11 @@
 main()
 {
     self._id_3AA1 = "";
-    self._id_3AA2 = "";
+    self._id_3AA2 = "common_rambo_anims.csv";
     self.team = "axis";
     self.type = "human";
-    self._id_218D = "regular";
-    self.accuracy = 0.25;
+    self._id_218D = "militia";
+    self.accuracy = 0.12;
     self.health = 150;
     self.secondaryweapon = "";
     self._id_20A3 = "glock";
@@ -24,22 +24,22 @@ main()
     switch ( codescripts\character::get_random_weapon( 4 ) )
     {
         case 0:
-            self.weapon = "p90";
+            self.weapon = "ak47";
             break;
         case 1:
-            self.weapon = "p90_eotech";
+            self.weapon = "ak47_reflex";
             break;
         case 2:
-            self.weapon = "pp90m1";
+            self.weapon = "ak47_grenadier";
             break;
         case 3:
-            self.weapon = "pp90m1_reflex";
+            self.weapon = "ak47_acog";
             break;
     }
-    
-    if (level.script == "sp_ny_harbor" || level.script == "ny_harbor")
+
+    if( level.script == "sp_warlord" || level.script == "warlord" )
     {
-        character\ny_har\enemies\character_seals_assault_rnd::main();
+        character\warlord\enemies\character_pmc_rnd::main();
     }
 }
 
@@ -50,11 +50,23 @@ spawner()
 
 precache()
 {
-    character\ny_har\enemies\character_seals_assault_rnd::precache();
-    precacheitem( "p90" );
-    precacheitem( "p90_eotech" );
-    precacheitem( "pp90m1" );
-    precacheitem( "pp90m1_reflex" );
+    character\warlord\enemies\character_pmc_rnd::precache();
+}
+
+spawner()
+{
+    self setspawnerteam( "axis" );
+}
+
+precache()
+{
+    character\warlord\enemies\character_pmc_rnd::precache();
+    precacheitem( "ak47" );
+    precacheitem( "ak47_reflex" );
+    precacheitem( "ak47_grenadier" );
+    precacheitem( "gl_ak47" );
+    precacheitem( "ak47_acog" );
     precacheitem( "glock" );
     precacheitem( "fraggrenade" );
+    _id_05C2::main();
 }
