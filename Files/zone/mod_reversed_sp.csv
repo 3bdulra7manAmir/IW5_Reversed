@@ -1,0 +1,22 @@
+// Makarov Bodies
+xmodel,body_airport_com_b
+xmodel,body_airport_com_c
+xmodel,body_airport_com_d
+
+// Makarov's Heads
+xmodel,head_makarov_b_young
+xmodel,head_vil_makarov
+
+// WARLORD ZONE //
+//Warabee Body
+xmodel,head_warlord
+xmodel,body_warlord
+
+xmodel,body_pmc_africa_shotgun_a
+xmodel,body_pmc_africa_lmg_a
+xmodel,body_pmc_africa_smg_a
+xmodel,body_pmc_africa_assault_a
+xmodel,head_pmc_africa_ff
+xmodel,head_pmc_africa_d
+xmodel,head_pmc_africa_e
+xmodel,head_pmc_africa_a
