@@ -10,8 +10,8 @@ main()
     self._id_218D = "regular";
     self.accuracy = 0.2;
     self.health = 150;
-    self.secondaryweapon = "";
-    self._id_20A3 = "";
+    self.secondaryweapon = "beretta";
+    self._id_20A3 = "beretta";
     self.grenadeweapon = "fraggrenade";
     self.grenadeammo = 0;
 
@@ -21,10 +21,10 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    self.weapon = "ak47";
-    if (level.script == "sp_hijack" || level.script == "hijack")
+    self.weapon = "m16_basic";
+    if( level.script == "hamburg" )
     {
-        character\hijack\allies\character_russian_shotgun_rnd::main();
+        character\hamburg\allies\character_russian_rnd::main();
     }
     else if( level.script == "hamburg" )
     {
@@ -39,8 +39,10 @@ spawner()
 
 precache()
 {
-    character\hijack\allies\character_russian_shotgun_rnd::precache();
     character\hamburg\allies\character_russian_rnd::precache();
-    precacheitem( "ak47" );
+    //character\character_shadow_co_pilot::precache();
+    precacheitem( "m16_basic" );
+    precacheitem( "beretta" );
+    precacheitem( "beretta" );
     precacheitem( "fraggrenade" );
 }

@@ -52,6 +52,10 @@ main()
     {
         character\ny_man\allies\character_russian_rnd::main();
     }
+    else if( level.script == "hamburg" )
+    {
+        character\hamburg\allies\character_russian_rnd::main();
+    }
 }
 
 spawner()
@@ -62,6 +66,7 @@ spawner()
 precache()
 {
     character\ny_man\allies\character_russian_rnd::precache();
+    character\hamburg\allies\character_russian_rnd::precache();
     precacheitem( "m16_basic" );
     precacheitem( "scar_h" );
     precacheitem( "m16_grenadier" );

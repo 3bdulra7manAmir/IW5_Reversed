@@ -44,8 +44,8 @@ _id_7EC3()
 {
     level._id_1245["player_rig"] = #animtree;
     level._id_0C59["player_rig"]["player_getin"] = %roadkill_hummer_player_getin;
-    //level._id_1F90["player_rig"] = "viewhands_player_delta";
-    level._id_1F90["player_rig"] = "viewhands_player_delta_shg";
+    level._id_1F90["player_rig"] = "viewhands_player_delta";
+    //level._id_1F90["player_rig"] = "viewhands_player_delta_shg";
     level._id_0C59["player_rig"]["mount_tank"] = %hamburg_tank_entry_upperbody;
     level._id_1245["player_rig_legs"] = #animtree;
     level._id_1F90["player_rig_legs"] = "viewlegs_generic";

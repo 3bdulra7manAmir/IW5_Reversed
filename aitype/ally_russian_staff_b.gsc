@@ -26,6 +26,10 @@ main()
     {
         character\hijack\allies\character_russian_smg_rnd::main();
     }
+    else if( level.script == "hamburg" )
+    {
+        character\hamburg\allies\character_russian_rnd::main();
+    }
 }
 
 spawner()
@@ -36,6 +40,7 @@ spawner()
 precache()
 {
     character\hijack\allies\character_russian_smg_rnd::precache();
+    character\hamburg\allies\character_russian_rnd::precache();
     precacheitem( "ak47" );
     precacheitem( "fraggrenade" );
 }
