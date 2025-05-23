@@ -31,8 +31,8 @@ main()
     _id_6526::main( "tag_flash" );
     maps\payback_sandstorm_code::_id_5C02();
     level._id_6844 = 1;
-    maps\_load::_id_1F5C( "viewhands_player_delta_shg" );
-    //maps\_load::_id_1F5C( "viewhands_player_yuri" );
+    //maps\_load::_id_1F5C( "viewhands_player_delta_shg" );
+    maps\_load::_id_1F5C( "viewhands_player_yuri" );
     common_scripts\utility::flag_set( "payback_stealth_ready" );
     maps\payback_anim::main();
 

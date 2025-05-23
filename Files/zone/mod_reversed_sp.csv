@@ -2,6 +2,7 @@
 xmodel,body_airport_com_b
 xmodel,body_airport_com_c
 xmodel,body_airport_com_d
+xmodel,body_henchmen_shotgun_a
 
 // Makarov's Heads
 xmodel,head_makarov_b_young
@@ -20,3 +21,15 @@ xmodel,head_pmc_africa_ff
 xmodel,head_pmc_africa_d
 xmodel,head_pmc_africa_e
 xmodel,head_pmc_africa_a
+
+// VOLK //
+xmodel,head_volk_a
+xmodel,body_volk_a
+
+// BTR80 //
+xmodel,vehicle_stryker_config2
+// BTR80 //
+
+// vehicle_stryker_config2 //
+//xmodel,vehicle_btr80
+// vehicle_stryker_config2 //

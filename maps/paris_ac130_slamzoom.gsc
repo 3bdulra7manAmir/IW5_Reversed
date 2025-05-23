@@ -501,8 +501,8 @@ _id_6144()
     var_0 = maps\_utility::_id_283B( "intro_frost_downed_pos", "targetname" );
     var_1 = spawn( "script_model", var_0.origin );
     var_1.angles = var_0.angles;
-    //var_1 setmodel( "viewhands_player_delta" );
-    var_1 setmodel( "viewhands_player_delta_shg" );
+    var_1 setmodel( "viewhands_player_delta" );
+    //var_1 setmodel( "viewhands_player_delta_shg" );
     var_1 hide();
     var_2 = spawn( "script_model", var_0.origin );
     var_2.angles = var_0.angles;

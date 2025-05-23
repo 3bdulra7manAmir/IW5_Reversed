@@ -339,9 +339,9 @@ _id_6654()
     level._id_4877.ignoreme = 1;
     wait 0.05;
     level._id_4877 maps\_utility::_id_27A1( getnode( "kruger_room_price_spot", "targetname" ) );
-    level._id_6656 = maps\_utility::_id_1287( "price_hat" );
-    level._id_6656 linkto( level._id_4877, "J_Head", ( 0, 0, 0 ), ( 0, 0, 0 ) );
-    level._id_6656 hide();
+    //level._id_6656 = maps\_utility::_id_1287( "price_hat" );
+    //level._id_6656 linkto( level._id_4877, "J_Head", ( 0, 0, 0 ), ( 0, 0, 0 ) );
+    //level._id_6656 hide();
     level._id_663E.name = "waraabe";
 }
 
@@ -523,9 +523,9 @@ _id_6665()
 
 _id_6656()
 {
-    level._id_4877 thread maps\_anim::_id_1246( level._id_6656, "price_hat_interrogation", "J_Head" );
-    wait 0.5;
-    level._id_6656 show();
+    //level._id_4877 thread maps\_anim::_id_1246( level._id_6656, "price_hat_interrogation", "J_Head" );
+    //wait 0.5;
+    //level._id_6656 show();
     level._id_663E.name = "waraabe";
     //level._id_4877 setmodel( "fullbody_price_africa_assault_a_nohat" ); //Here
 }

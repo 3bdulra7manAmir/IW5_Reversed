@@ -16,8 +16,8 @@ main()
 _id_47D9()
 {
     level._id_1245["player_arms"] = #animtree;
-    level._id_1F90["player_arms"] = "viewhands_player_delta_shg";
-    //level._id_1F90["player_arms"] = "viewhands_player_delta";
+    //level._id_1F90["player_arms"] = "viewhands_player_delta_shg";
+    level._id_1F90["player_arms"] = "viewhands_player_delta";
     level._id_0C59["player_arms"]["hummer_exit"] = %paris_ac130_run_around_humvee_player;
     common_scripts\utility::flag_init( "notetrack_flag_sandman_start" );
     maps\_anim::_id_1267( "player_arms", "sandman_start", "notetrack_flag_sandman_start", "hummer_exit" );

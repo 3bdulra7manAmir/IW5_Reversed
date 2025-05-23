@@ -1,0 +1,17 @@
+// H2 PC GSC
+// Decompiled by https://github.com/xensik/gsc-tool
+
+main()
+{
+    self setmodel( "body_gign_paris_smg" );
+    self attach( "head_gign_generic_gasmask", "", 1 );
+	self.headmodel = "head_gign_generic_gasmask";
+    
+    self.voice = "american";
+}
+
+precache()
+{
+    precachemodel( "body_gign_paris_smg" );
+    precacheModel("head_gign_generic_gasmask");
+}
