@@ -10,8 +10,8 @@ main()
     self._id_218D = "regular";
     self.accuracy = 0.2;
     self.health = 100;
-    self.secondaryweapon = "usp_silencer";
-    self._id_20A3 = "usp_silencer";
+    self.secondaryweapon = "";
+    self._id_20A3 = "beretta";
     self.grenadeweapon = "fraggrenade";
     self.grenadeammo = 0;
 
@@ -21,20 +21,12 @@ main()
         self setengagementmaxdist( 768.0, 1024.0 );
     }
 
-    self.weapon = "m14ebr";
-
-    if( level.script == "sp_ny_manhattan" || level.script == "ny_manhattan" )
-    {
-        character\ny_man\allies\character_russian_rnd::main();
-    }
-    else if ( level.script == "paris_b" || level.script == "sp_paris_b" )
-    {
-        character\paris_b\allies\character_russian_rnd::main();
-    }
-    else
+    self.weapon = "defaultweapon";
+    if ( level.script == "paris_ac130" )
     {
         character\paris_ac130\allies\character_russian_rnd::main();
     }
+    //_id_60E0::main();
 }
 
 spawner()
@@ -44,11 +36,8 @@ spawner()
 
 precache()
 {
-    character\ny_man\allies\character_russian_rnd::precache();
-    character\paris_b\allies\character_russian_rnd::precache();
     character\paris_ac130\allies\character_russian_rnd::precache();
-    precacheitem( "m14ebr" );
-    precacheitem( "usp_silencer" );
-    precacheitem( "usp_silencer" );
+    precacheitem( "defaultweapon" );
+    precacheitem( "beretta" );
     precacheitem( "fraggrenade" );
 }

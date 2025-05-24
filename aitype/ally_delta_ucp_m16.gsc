@@ -38,7 +38,10 @@ main()
     {
         character\ny_man\allies\character_russian_rnd::main();
     }
-    
+    else if ( level.script == "paris_ac130" )
+    {
+        character\paris_ac130\allies\character_russian_rnd::main();
+    }
 }
 
 spawner()
@@ -49,6 +52,7 @@ spawner()
 precache()
 {
     character\ny_man\allies\character_russian_rnd::precache();
+    character\paris_ac130\allies\character_russian_rnd::precache();
     precacheitem( "m16_basic" );
     precacheitem( "m16_acog" );
     precacheitem( "m16_grenadier" );
