@@ -34,7 +34,7 @@ main()
             break;
     }
 
-    if( level.script == "paris_a" || level.script == "sp_paris_a" || level.script == "paris_b" || level.script == "sp_paris_b" || level.script == "sp_paris_ac130" || level.script == "paris_ac130" )
+    if( level.script == "paris_a" || level.script == "sp_paris_a" || level.script == "paris_b" || level.script == "sp_paris_b" )
     {
         character\paris_a\enemies\character_gign_delta_rnd::main();
     }

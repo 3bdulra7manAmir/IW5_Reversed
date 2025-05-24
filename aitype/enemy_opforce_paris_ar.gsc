@@ -51,6 +51,10 @@ main()
     {
         character\paris_ac130\enemies\character_delta_rnd::main();
     }
+    else
+    {
+        character\paris_ac130\enemies\character_delta_rnd::main();
+    }
 }
 
 spawner()

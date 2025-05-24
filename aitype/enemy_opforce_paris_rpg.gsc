@@ -26,9 +26,13 @@ main()
     {
         character\paris_b\enemies\character_rnd_delta_gign::main();
     }
-    else if()
+    else if( level.script == "paris_130" )
     {
 
+        character\paris_ac130\enemies\character_delta_rnd::main();
+    }
+    else
+    {
         character\paris_ac130\enemies\character_delta_rnd::main();
     }
 }
