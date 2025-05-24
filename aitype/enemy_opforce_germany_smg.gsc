@@ -32,13 +32,7 @@ main()
         case 2:
             self.weapon = "pp90m1_silencer";
             break;
-    }
-
-    if( level.script == "hamburg" )
-    {
-        character\hamburg\enemies\character_enemies_rnd::main();
-    }
-    else if( level.script == "hamburg" )
+    }    if( level.script == "hamburg" )
     {
         character\hamburg\enemies\character_enemies_rnd::main();
     }

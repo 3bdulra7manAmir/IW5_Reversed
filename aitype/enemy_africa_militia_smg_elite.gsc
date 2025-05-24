@@ -45,16 +45,6 @@ spawner()
 precache()
 {
     character\warlord\enemies\character_pmc_rnd::precache();
-}
-
-spawner()
-{
-    self setspawnerteam( "axis" );
-}
-
-precache()
-{
-    character\warlord\enemies\character_pmc_rnd::precache();
     precacheitem( "pp90m1" );
     precacheitem( "pp90m1_reflex" );
     precacheitem( "glock" );

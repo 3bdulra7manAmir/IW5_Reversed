@@ -35,9 +35,7 @@ spawner()
 
 precache()
 {
-    character\character_vil_makarov_shotgun_a::precache();
-    precacheitem( "m4_grunt" );
-    precacheitem( "usp" );
+    character\character_vil_makarov_shotgun_a::precache();    precacheitem( "m4_grunt" );
     precacheitem( "usp" );
     precacheitem( "fraggrenade" );
 }

@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "usp";
-    if ( level.script == "payback" || level.script == "sp_payback" )
+    if ( level.script == "sp_payback" || level.script == "payback" )
     {
         character\payback\allies\character_militia_smg_rnd::main();
     }

@@ -45,10 +45,8 @@ precache()
 {
     character\ny_man\allies\character_russian_rnd::precache();
     character\paris_b\allies\character_russian_rnd::precache();
-    character\paris_ac130\allies\character_russian_rnd::precache();
-    precacheitem( "m4_grenadier" );
+    character\paris_ac130\allies\character_russian_rnd::precache();    precacheitem( "m4_grenadier" );
     precacheitem( "m203_m4" );
-    precacheitem( "usp_silencer" );
     precacheitem( "usp_silencer" );
     precacheitem( "fraggrenade" );
 }

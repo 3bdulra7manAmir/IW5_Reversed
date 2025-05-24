@@ -38,10 +38,6 @@ main()
     {
         character\paris_ac130\allies\character_russian_rnd::main();
     }
-    else
-    {
-        character\paris_ac130\allies\character_russian_rnd::main();
-    }
 }
 
 spawner()

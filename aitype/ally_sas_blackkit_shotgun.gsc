@@ -35,9 +35,7 @@ spawner()
 
 precache()
 {
-    character\london\allies\character_russian_assault_rnd::precache();
-    precacheitem( "spas12" );
-    precacheitem( "usp" );
+    character\london\allies\character_russian_assault_rnd::precache();    precacheitem( "spas12" );
     precacheitem( "usp" );
     precacheitem( "fraggrenade" );
 }

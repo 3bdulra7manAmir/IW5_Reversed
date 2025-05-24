@@ -23,7 +23,7 @@ main()
 
     self.weapon = "ak47_ac130";
 
-    if( level.script == "paris_130" )
+    if( level.script == "paris_ac130" )
     {
         character\paris_ac130\enemies\character_delta_rnd::main();
     }
@@ -37,8 +37,6 @@ spawner()
 precache()
 {
     character\paris_ac130\enemies\character_delta_rnd::precache();
-    // _id_60D9::precache();
-    // _id_60DA::precache();
     precacheitem( "ak47_ac130" );
     precacheitem( "pp2000" );
     precacheitem( "fraggrenade" );

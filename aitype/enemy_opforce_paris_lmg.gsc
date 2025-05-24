@@ -38,8 +38,6 @@ spawner()
 
 precache()
 {
-    //_id_0609::precache();
-    //_id_060A::precache();
     character\paris_b\enemies\character_rnd_delta_gign::precache();
     character\paris_ac130\enemies\character_delta_rnd::precache();
     precacheitem( "pecheneg" );

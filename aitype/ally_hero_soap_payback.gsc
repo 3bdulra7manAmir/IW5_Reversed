@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "m4_grenadier";
-    if ( level.script == "payback" || level.script == "sp_payback" )
+    if ( level.script == "sp_payback" || level.script == "payback" )
     {
         character\payback\allies\character_militia_lmg_rnd::main();
     }

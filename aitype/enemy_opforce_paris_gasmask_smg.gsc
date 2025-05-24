@@ -43,7 +43,7 @@ main()
             break;
     }
 
-    if( level.script == "paris_a" || level.script == "sp_paris_a" || level.script == "paris_b" || level.script == "sp_paris_b" )
+    if( level.script == "sp_paris_a" || level.script == "paris_a" || level.script == "sp_paris_b" || level.script == "paris_b" )
     {
         character\paris_a\enemies\character_gign_delta_rnd::main();
     }
@@ -56,8 +56,6 @@ spawner()
 
 precache()
 {
-    //_id_0609::precache();
-    //_id_060A::precache();
     character\paris_a\enemies\character_gign_delta_rnd::precache();
     precacheitem( "pp90m1" );
     precacheitem( "pp90m1_reflex" );

@@ -40,8 +40,7 @@ main()
             break;
     }
 
-    // _id_201B::main();
-    if( level.script == "paris_a" || level.script == "sp_paris_a" || level.script == "paris_b" || level.script == "sp_paris_b" )
+    if( level.script == "sp_paris_a" || level.script == "paris_a" || level.script == "sp_paris_b" || level.script == "paris_b" )
     {
         character\paris_a\allies\character_russian_smg_rnd::main();
     }
@@ -54,7 +53,6 @@ spawner()
 
 precache()
 {
-    //_id_201B::precache();
     character\paris_a\allies\character_russian_smg_rnd::precache();
     precacheitem( "g36c" );
     precacheitem( "g36c_acog" );

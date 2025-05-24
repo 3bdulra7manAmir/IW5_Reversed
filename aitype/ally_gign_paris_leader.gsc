@@ -40,7 +40,6 @@ main()
             break;
     }
 
-    //_id_2B3A::main();
     if( level.script == "paris_a" || level.script == "sp_paris_a" )
     {
         character\paris_a\allies\character_russian_smg_rnd::main();
@@ -62,8 +61,7 @@ spawner()
 
 precache()
 {
-    //_id_2B3C::precache();
-    //_id_2B3D::precache();
+
     character\paris_a\allies\character_russian_smg_rnd::precache();
     character\paris_b\allies\character_russian_rnd::precache();
     character\paris_ac130\allies\character_russian_rnd::precache();

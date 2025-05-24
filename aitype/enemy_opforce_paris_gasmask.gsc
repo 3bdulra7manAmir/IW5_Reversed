@@ -41,7 +41,7 @@ main()
     {
         character\paris_a\enemies\character_gign_delta_rnd::main();
     }
-    else if()
+    else if( level.script == "paris_ac130" )
     {
         character\paris_ac130\enemies\character_delta_rnd::main();
     }
@@ -55,8 +55,6 @@ spawner()
 
 precache()
 {
-    //_id_0609::precache();
-    //_id_060A::precache();
     character\paris_a\enemies\character_gign_delta_rnd::precache();
     character\paris_ac130\enemies\character_delta_rnd::precache();
     precacheitem( "ak47" );

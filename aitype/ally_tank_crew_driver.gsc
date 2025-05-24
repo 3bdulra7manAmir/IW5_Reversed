@@ -43,6 +43,5 @@ precache()
     //character\character_shadow_co_pilot::precache();
     precacheitem( "m16_basic" );
     precacheitem( "beretta" );
-    precacheitem( "beretta" );
     precacheitem( "fraggrenade" );
 }

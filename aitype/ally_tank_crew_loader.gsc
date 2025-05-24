@@ -43,6 +43,5 @@ precache()
     //character\hamburg\allies\character_enemies_rnd::precache();
     precacheitem( "m16_basic" );
     precacheitem( "beretta" );
-    precacheitem( "beretta" );
     precacheitem( "fraggrenade" );
 }

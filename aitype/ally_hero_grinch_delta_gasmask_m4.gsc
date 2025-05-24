@@ -35,12 +35,10 @@ spawner()
 
 precache()
 {
-    //_id_0609::precache();
-    //_id_060A::precache();
+
     character\paris_a\allies\character_russian_smg_rnd::precache();
     precacheitem( "m4_grenadier" );
     precacheitem( "m203_m4" );
-    precacheitem( "usp_silencer" );
     precacheitem( "usp_silencer" );
     precacheitem( "fraggrenade" );
 }

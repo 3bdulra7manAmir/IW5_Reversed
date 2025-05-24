@@ -26,12 +26,7 @@ main()
     {
         character\paris_b\enemies\character_rnd_delta_gign::main();
     }
-    else if( level.script == "paris_130" )
-    {
-
-        character\paris_ac130\enemies\character_delta_rnd::main();
-    }
-    else
+    else if( level.script == "paris_ac130" )
     {
         character\paris_ac130\enemies\character_delta_rnd::main();
     }
@@ -44,8 +39,6 @@ spawner()
 
 precache()
 {
-    //_id_0609::precache();
-    //_id_060A::precache();
     character\paris_b\enemies\character_rnd_delta_gign::precache();
     character\paris_ac130\enemies\character_delta_rnd::precache();
     precacheitem( "rpg" );

@@ -35,8 +35,6 @@ spawner()
 
 precache()
 {
-    //_id_0609::precache();
-    //_id_060A::precache();
     character\paris_a\enemies\character_gign_delta_rnd::precache();
     precacheitem( "rpg" );
     precacheitem( "ak47_reflex" );

@@ -48,15 +48,6 @@ spawner()
     self setspawnerteam( "axis" );
 }
 
-precache()
-{
-    character\warlord\enemies\character_pmc_rnd::precache();
-}
-
-spawner()
-{
-    self setspawnerteam( "axis" );
-}
 
 precache()
 {

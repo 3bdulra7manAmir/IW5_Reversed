@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "m4_grunt";
-	if(level.script == "intro" || level.script == "sp_intro")
+	if(level.script == "sp_intro" || level.script == "intro")
 	{
 		character\intro\allies\character_russian_lmg_a::main();
 	}

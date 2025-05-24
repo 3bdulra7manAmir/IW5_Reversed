@@ -35,9 +35,7 @@ main()
         case 3:
             self.weapon = "ak47_reflex";
             break;
-    }
-	
-	if(level.script == "intro" || level.script == "sp_intro")
+    }    if(level.script == "sp_intro" || level.script == "intro")
 	{
 		character\intro\allies\character_russian_assault_rnd::main();
 	}

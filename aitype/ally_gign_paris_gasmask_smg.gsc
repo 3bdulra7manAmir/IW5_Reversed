@@ -53,8 +53,6 @@ spawner()
 
 precache()
 {
-    //_id_2B3C::precache();
-    //_id_2B3D::precache();
     character\paris_a\allies\character_russian_smg_rnd::precache();
     precacheitem( "mp5" );
     precacheitem( "mp5_eotech" );

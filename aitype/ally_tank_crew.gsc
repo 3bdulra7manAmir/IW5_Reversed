@@ -26,10 +26,6 @@ main()
     {
         character\hamburg\allies\character_russian_rnd::main();
     }
-    else if( level.script == "hamburg" )
-    {
-        character\hamburg\allies\character_russian_rnd::main();
-    }
 }
 
 spawner()
@@ -40,9 +36,7 @@ spawner()
 precache()
 {
     character\hamburg\allies\character_russian_rnd::precache();
-    //character\hamburg\allies\character_enemies_rnd::precache();
     precacheitem( "m16_basic" );
-    precacheitem( "beretta" );
     precacheitem( "beretta" );
     precacheitem( "fraggrenade" );
 }

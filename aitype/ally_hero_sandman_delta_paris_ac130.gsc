@@ -38,7 +38,6 @@ main()
     {
         character\paris_ac130\allies\character_russian_rnd::main();
     }
-    //_id_60E0::main();
 }
 
 spawner()

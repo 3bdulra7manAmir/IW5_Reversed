@@ -2,12 +2,11 @@
 // Decompiled by https://github.com/xensik/gsc-tool
 
 main()
-{
-    self setmodel( "body_gign_paris_lmg" );
+{    self setmodel( "body_gign_paris_lmg" );
     self attach( "head_gign_generic_gasmask", "", 1 );
 	self.headmodel = "head_gign_generic_gasmask";
     
-    self.voice = "american";
+    self.voice = "french";
 }
 
 precache()
