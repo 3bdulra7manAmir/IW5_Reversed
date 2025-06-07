@@ -33,7 +33,7 @@ main()
 
     if( level.script == "sp_warlord" || level.script == "warlord" )
     {
-        character\warlord\enemies\character_pmc_rnd::main();
+        character\warlord\enemies\character_shadow_co_rnd::main();
     }
 }
 
@@ -44,7 +44,7 @@ spawner()
 
 precache()
 {
-    character\warlord\enemies\character_pmc_rnd::precache();
+    character\warlord\enemies\character_shadow_co_rnd::precache();
     precacheitem( "pp90m1" );
     precacheitem( "pp90m1_reflex" );
     precacheitem( "glock" );

@@ -23,7 +23,7 @@ main()
 
     self.weapon = "ak47";
 
-    character\dubai\enemies\character_pmc_rnd::main();
+    character\dubai\enemies\character_shadow_co_rnd::main();
 }
 
 spawner()
@@ -33,7 +33,7 @@ spawner()
 
 precache()
 {
-    character\dubai\enemies\character_pmc_rnd::precache();
+    character\dubai\enemies\character_shadow_co_rnd::precache();
     precacheitem( "ak47" );
     precacheitem( "glock" );
     precacheitem( "fraggrenade" );

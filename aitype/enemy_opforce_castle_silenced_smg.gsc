@@ -30,7 +30,7 @@ main()
             self.weapon = "pp90m1_silencer";
             break;
     }
-    character\castle\enemies\character_pmc_rnd::main();
+    character\castle\enemies\character_shadow_co_rnd::main();
 }
 
 spawner()
@@ -40,7 +40,7 @@ spawner()
 
 precache()
 {
-    character\castle\enemies\character_pmc_rnd::precache();
+    character\castle\enemies\character_shadow_co_rnd::precache();
     precacheitem( "p90_silencer" );
     precacheitem( "pp90m1_silencer" );
     precacheitem( "p99_tactical_silencer" );

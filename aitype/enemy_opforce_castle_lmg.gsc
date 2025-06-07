@@ -39,7 +39,7 @@ main()
             self.weapon = "pecheneg_reflex";
             break;
     }
-    character\castle\enemies\character_pmc_rnd::main();
+    character\castle\enemies\character_shadow_co_rnd::main();
 }
 
 spawner()
@@ -49,7 +49,7 @@ spawner()
 
 precache()
 {
-    character\castle\enemies\character_pmc_rnd::precache();
+    character\castle\enemies\character_shadow_co_rnd::precache();
     precacheitem( "sa80" );
     precacheitem( "sa80_scope" );
     precacheitem( "pecheneg" );

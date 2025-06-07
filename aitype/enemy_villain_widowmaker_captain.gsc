@@ -26,6 +26,7 @@ main()
     {
         character\ny_har\enemies\character_seals_assault_rnd::main();
     }
+}
 
 spawner()
 {

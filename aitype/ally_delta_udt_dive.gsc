@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "none";
-    if (level.script == "ny_harbor" || level.script == "ny_harbor")
+    if (level.script == "sp_ny_harbor" || level.script == "ny_harbor")
     {
         character\ny_har\allies\character_russian_smg_a::main();
     }

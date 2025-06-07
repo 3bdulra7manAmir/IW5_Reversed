@@ -33,7 +33,7 @@ main()
 
     if( level.script == "sp_warlord" || level.script == "warlord" )
     {
-        character\warlord\enemies\character_pmc_rnd::main();
+        character\warlord\enemies\character_shadow_co_rnd::main();
     }
 }
 
@@ -44,17 +44,7 @@ spawner()
 
 precache()
 {
-    character\warlord\enemies\character_pmc_rnd::precache();
-}
-
-spawner()
-{
-    self setspawnerteam( "axis" );
-}
-
-precache()
-{
-    character\warlord\enemies\character_pmc_rnd::precache();
+    character\warlord\enemies\character_shadow_co_rnd::precache();
     precacheitem( "m60e4" );
     precacheitem( "pecheneg" );
     precacheitem( "glock" );

@@ -22,7 +22,7 @@ main()
     }
 
     self.weapon = "rpg";
-    character\castle\enemies\character_pmc_rnd::main();
+    character\castle\enemies\character_shadow_co_rnd::main();
 }
 
 spawner()
@@ -32,7 +32,7 @@ spawner()
 
 precache()
 {
-    character\castle\enemies\character_pmc_rnd::precache();
+    character\castle\enemies\character_shadow_co_rnd::precache();
     precacheitem( "rpg" );
     precacheitem( "ak47_reflex" );
     precacheitem( "glock" );

@@ -30,8 +30,14 @@ main()
             self.weapon = "ak74u";
             break;
     }
-
-    character\rescue_2\allies\character_russian_rnd::main();
+    if( level.script == "prague" || level.script == "prague_escape")
+    {
+        character\prague\allies\character_russian_rnd::main();
+    }
+    else if ( level.script == "prague_escape" )
+    {
+        character\prague_escape\allies\character_russian_rnd::main();
+    }
 }
 
 spawner()
@@ -41,10 +47,10 @@ spawner()
 
 precache()
 {
-    character\rescue_2\allies\character_russian_rnd::precache();
+    character\prague\allies\character_russian_rnd::precache();
+    character\prague_escape\allies\character_russian_rnd::precache();
     precacheitem( "ak47" );
     precacheitem( "ak74u" );
     precacheitem( "glock" );
     precacheitem( "fraggrenade" );
-    _id_05C2::main();
 }

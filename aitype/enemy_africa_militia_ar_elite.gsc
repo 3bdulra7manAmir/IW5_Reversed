@@ -42,7 +42,7 @@ main()
 
     if( level.script == "sp_warlord" || level.script == "warlord" )
     {
-        character\warlord\enemies\character_pmc_rnd::main();
+        character\warlord\enemies\character_shadow_co_rnd::main();
     }
 }
 
@@ -53,7 +53,7 @@ spawner()
 
 precache()
 {
-    character\warlord\enemies\character_pmc_rnd::precache();
+    character\warlord\enemies\character_shadow_co_rnd::precache();
     precacheitem( "ak47" );
     precacheitem( "ak47_grenadier" );
     precacheitem( "gl_ak47" );

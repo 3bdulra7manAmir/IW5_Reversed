@@ -39,7 +39,7 @@ main()
             self.weapon = "g36c_silencer";
             break;
     }
-    character\castle\enemies\character_pmc_rnd::main();
+    character\castle\enemies\character_shadow_co_rnd::main();
 }
 
 spawner()
@@ -49,7 +49,7 @@ spawner()
 
 precache()
 {
-    character\castle\enemies\character_pmc_rnd::precache();
+    character\castle\enemies\character_shadow_co_rnd::precache();
     precacheitem( "ak47_silencer" );
     precacheitem( "ak47_silencer_reflex" );
     precacheitem( "ak47_silencer_acog" );

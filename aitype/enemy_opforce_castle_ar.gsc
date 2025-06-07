@@ -51,7 +51,7 @@ main()
             self.weapon = "g36c";
             break;
     }
-    character\castle\enemies\character_pmc_rnd::main();
+    character\castle\enemies\character_shadow_co_rnd::main();
 }
 
 spawner()
@@ -61,7 +61,7 @@ spawner()
 
 precache()
 {
-    character\castle\enemies\character_pmc_rnd::precache();
+    character\castle\enemies\character_shadow_co_rnd::precache();
     precacheitem( "ak47" );
     precacheitem( "ak47_reflex" );
     precacheitem( "ak47_eotech" );
