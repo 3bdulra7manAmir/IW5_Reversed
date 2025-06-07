@@ -26,7 +26,7 @@ _id_756A( var_0 )
     var_2 = maps\dubai_utils::_id_473C();
     var_2.alpha = 1;
     wait(var_0);
-    var_2 fadeovertime( var_1 );
+    //var_2 fadeovertime( var_1 );
     var_2.alpha = 0;
 }
 
@@ -249,7 +249,7 @@ _id_5119()
     setsaveddvar( "ammoCounterHide", 1 );
     setsaveddvar( "hud_showstance", 0 );
     setsaveddvar( "actionSlotsHide", 1 );
-    maps\_utility::delaythread( 1, common_scripts\utility::flag_set, "vo_intro_on_black" );
+    //maps\_utility::delaythread( 1, common_scripts\utility::flag_set, "vo_intro_on_black" );
     var_1 = 15;
     thread _id_756A( var_1 );
     thread _id_000F();
@@ -1162,13 +1162,13 @@ _id_75A9()
     wait 0.4;
     level.player playrumbleonentity( "damage_light" );
     var_10 = 0.05;
-    var_9 thread maps\dubai_utils::blackout( var_10, 2 );
+    //var_9 thread maps\dubai_utils::blackout( var_10, 2 );
     wait(var_10);
     common_scripts\utility::flag_set( "remove_player_juggernaut" );
     wait 0.1;
     var_9 maps\dubai_utils::_id_7451( 0.1, 2 );
-    var_8 waittillmatch( "single anim", "fade_out" );
-    var_9 maps\dubai_utils::blackout( 0.5, 4 );
+    //var_8 waittillmatch( "single anim", "fade_out" );
+    //var_9 maps\dubai_utils::blackout( 0.5, 4 );
     var_1 waittill( var_2 );
     var_8 setmodel( "viewhands_player_pmc" );
     var_8._id_1032 = "player_rig";
@@ -3673,11 +3673,11 @@ _id_0010()
 
     for (;;)
     {
-        self fadeovertime( 0.5 );
-        self.alpha = 0.5;
+        //self fadeovertime( 0.5 );
+        //self.alpha = 0.5;
         wait 0.5;
-        self fadeovertime( 0.5 );
-        self.alpha = 1.0;
+        //self fadeovertime( 0.5 );
+        //self.alpha = 1.0;
         wait 0.5;
     }
 }
@@ -3696,7 +3696,7 @@ _id_74BA()
     wait(var_0 - var_1);
 
     if ( isdefined( level._id_1D95 ) && level._id_1D95 )
-        maps\_audio::aud_send_msg( "level_fade_to_black", [ 0, var_1 ] );
+        //maps\_audio::aud_send_msg( "level_fade_to_black", [ 0, var_1 ] );
 
     wait(var_1);
     common_scripts\utility::flag_set( "end_of_credits" );
@@ -3706,52 +3706,52 @@ _id_74BA()
     {
         level.player notifyonplayercommand( "tospecops", "pause" );
         level.player notifyonplayercommand( "tospecops", "+gostand" );
-        var_2 = 0.5;
-        var_3 = 4;
-        var_4 = 1;
-        var_5 = newhudelem();
-        var_5.horzalign = "fullscreen";
-        var_5.vertalign = "fullscreen";
-        var_5.foreground = 1;
-        var_5 setshader( "victory_iw5", 640, 480 );
-        var_5.x = 0;
-        var_5.y = 0;
-        var_5.alpha = 1;
+        //var_2 = 0.5;
+        //var_3 = 4;
+        //var_4 = 1;
+        //var_5 = newhudelem();
+        //var_5.horzalign = "fullscreen";
+        //var_5.vertalign = "fullscreen";
+        //var_5.foreground = 1;
+        //var_5 setshader( "victory_iw5", 640, 480 );
+        //var_5.x = 0;
+        //var_5.y = 0;
+        //var_5.alpha = 1;
         var_6 = maps\dubai_finale::_id_74D7();
-        var_6 fadeovertime( var_2 );
-        var_6.alpha = 0;
-        wait(var_2);
-        wait(var_3);
-        maps\_audio::aud_send_msg( "level_fade_to_black", [ 0, var_1 ] );
-        var_6 fadeovertime( var_4 );
-        var_6.alpha = 1;
-        wait(var_4);
-        var_5 setshader( "victory_menu", 640, 480 );
+        //var_6 fadeovertime( var_2 );
+        //var_6.alpha = 0;
+        //wait(var_2);
+        //wait(var_3);
+        //maps\_audio::aud_send_msg( "level_fade_to_black", [ 0, var_1 ] );
+        //var_6 fadeovertime( var_4 );
+        //var_6.alpha = 1;
+        //wait(var_4);
+        //var_5 setshader( "victory_menu", 640, 480 );
         var_7 = level.player maps\_hud_util::createserverclientfontstring( "hudbig", 1.0 );
-        var_7.x = 0;
-        var_7.y = 190;
-        var_7.alignx = "center";
-        var_7.aligny = "middle";
-        var_7.horzalign = "center";
-        var_7.vertalign = "middle";
-        var_7.sort = 1;
-        var_7.foreground = 1;
+        //var_7.x = 0;
+        //var_7.y = 190;
+        //var_7.alignx = "center";
+        //var_7.aligny = "middle";
+        //var_7.horzalign = "center";
+        //var_7.vertalign = "middle";
+        //var_7.sort = 1;
+        //var_7.foreground = 1;
         var_7 settext( &"MENU_SP_CONTINUE_TO_SPECIAL_OPS_CAPS" );
-        var_7.alpha = 1;
-        var_7.hidewheninmenu = 0;
+        //var_7.alpha = 1;
+        //var_7.hidewheninmenu = 0;
         var_7.color = ( 0.9, 0.9, 0.9 );
         var_7 thread _id_0010();
-        var_6 fadeovertime( var_2 );
-        var_6.alpha = 0;
+        //var_6 fadeovertime( var_2 );
+        //var_6.alpha = 0;
         level.player openmenu( "nopause" );
-        wait(var_2);
+        //wait(var_2);
         level.player waittill( "tospecops" );
         var_7 notify( "stop_pulse" );
-        var_6 fadeovertime( var_4 );
-        var_6.alpha = 1;
-        var_7 fadeovertime( var_4 );
+        //var_6 fadeovertime( var_4 );
+        //var_6.alpha = 1;
+        //var_7 fadeovertime( var_4 );
         var_7.alpha = 0;
-        wait(var_4);
+        //wait(var_4);
         level.player openmenu( "allowpause" );
         missionsuccess( "sp_intro" );
     }

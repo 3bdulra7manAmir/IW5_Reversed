@@ -14,14 +14,14 @@ _id_73B5()
 
 _id_47D9()
 {
-    //level._id_1F90["player_rig_juggernaut"] = "viewhands_player_juggernaut_ally";
-    level._id_1F90["player_rig_juggernaut"] = "viewhands_player_delta_shg";
+    level._id_1F90["player_rig_juggernaut"] = "viewhands_player_juggernaut_ally";
+    //level._id_1F90["player_rig_juggernaut"] = "viewhands_player_delta_shg";
     level._id_1245["player_rig_juggernaut"] = #animtree;
-    //level._id_1F90["player_rig"] = "viewhands_player_pmc";
-    level._id_1F90["player_rig"] = "viewhands_player_delta_shg";
+    level._id_1F90["player_rig"] = "viewhands_player_pmc";
+    //level._id_1F90["player_rig"] = "viewhands_player_delta_shg";
     level._id_1245["player_rig"] = #animtree;
-    //level._id_1F90["player_legs"] = "viewlegs_juggernaut";
-    level._id_1F90["player_legs"] = "viewlegs_generic";
+    level._id_1F90["player_legs"] = "viewlegs_juggernaut";
+    //level._id_1F90["player_legs"] = "viewlegs_generic";
     level._id_1245["player_legs"] = #animtree;
     level._id_0C59["player_rig_juggernaut"]["intro"] = %dubai_intro_player;
     level._id_0C59["player_rig_juggernaut"]["remove_gear_player"] = %dubai_removing_grear_player;
@@ -181,11 +181,11 @@ _id_5004()
     maps\_anim::_id_1264( "copilot", "gunshot", ::_id_73BA, "helo_jump_3" );
     maps\_anim::_id_1264( "copilot", "fire", ::_id_73CE, "helo_jump_stab_fail" );
     level._id_1F90["stranger"] = "body_fso_suit_a";
-    level._id_73B6["stranger"] = "head_fso_d";
+    level._id_73B6["stranger"] = "head_henchmen_b";
     level._id_1245["stranger"] = #animtree;
     level._id_0C59["stranger"]["beatdown_end"] = %dubai_final_beatdown_guy_end;
-    level._id_1F90["price"] = "body_shadow_co_assault";
-    level._id_73B6["price"] = "head_shadow_co_b";
+    level._id_1F90["price"] = "body_fso_suit_a";
+    level._id_73B6["price"] = "head_henchmen_b";
     level._id_1245["price"] = #animtree;
     level._id_0C59["price"]["finale_reflection"] = %dubai_finale_reflection_guy1;
     level._id_0C59["price"]["finale_reflection_test"] = %dubai_finale_wake_reflection;

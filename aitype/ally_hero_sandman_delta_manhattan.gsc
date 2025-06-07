@@ -24,7 +24,7 @@ main()
     self.weapon = "m4_grunt";
     if( level.script == "sp_ny_manhattan" || level.script == "ny_manhattan" )
     {
-        character\character_vil_makarov_shotgun_a::main();
+        character\ny_man\allies\character_vil_makarov_shotgun_a::main();
     }
 }
 
@@ -35,7 +35,8 @@ spawner()
 
 precache()
 {
-    character\character_vil_makarov_shotgun_a::precache();    precacheitem( "m4_grunt" );
+    character\ny_man\allies\character_vil_makarov_shotgun_a::precache();
+    precacheitem( "m4_grunt" );
     precacheitem( "usp" );
     precacheitem( "fraggrenade" );
 }
