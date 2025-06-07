@@ -38,6 +38,10 @@ main()
     {
         character\hamburg\allies\character_russian_rnd::main();
     }
+    else if (level.script == "sp_berlin" || level.script == "berlin")
+    {
+        character\berlin\allies\character_russian_rnd::main();
+    }
 }
 
 spawner()
@@ -49,6 +53,7 @@ precache()
 {
     character\ny_man\allies\character_russian_rnd::precache();
     character\hamburg\allies\character_russian_rnd::precache();
+    character\berlin\allies\character_russian_rnd::precache();
     precacheitem( "m4_grenadier" );
     precacheitem( "m203_m4" );
     precacheitem( "m4_grunt" );

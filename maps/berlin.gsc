@@ -507,9 +507,9 @@ _id_73A2()
     // level._id_71A0 maps\_shg_common::_id_16B3( "body_delta_woodland_assault_aa_dusty" );
     // level._id_45C4 maps\_shg_common::_id_16B3( "body_hero_truck_delta_dusty" );
     // level._id_4E8F maps\_shg_common::_id_16B3( "body_hero_sandman_delta_dusty" );
-    level._id_71A0 maps\_shg_common::_id_16B3( "body_shadow_co_smg" );
-    level._id_45C4 maps\_shg_common::_id_16B3( "body_shadow_co_shotgun" );
-    level._id_4E8F maps\_shg_common::_id_16B3( "body_shadow_co_assault" );
+    level._id_71A0 maps\_shg_common::_id_16B3( "body_russian_military_assault_a_woodland_dusty" );
+    level._id_45C4 maps\_shg_common::_id_16B3( "body_russian_military_rpg_a_woodland" );
+    level._id_4E8F maps\_shg_common::_id_16B3( "body_henchmen_shotgun_a" );
     common_scripts\utility::flag_set( "is_intro" );
     thread maps\_utility::_id_2797( 75 );
     thread maps\berlin_code::_id_72AD();

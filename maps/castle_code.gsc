@@ -50,7 +50,7 @@ _id_5296( var_0, var_1 )
     {
         level._id_4877 = spawn( "script_model", ( 0.0, 0.0, 0.0 ) );
         //level._id_4877 setmodel( "body_price_europe_assault_a" );
-        level._id_4877 setmodel( "body_shadow_co_smg" );
+        level._id_4877 setmodel( "body_henchmen_assault_b" );
         level._id_4877.voice = "british";
         level._id_4877 useanimtree( #animtree );
     }

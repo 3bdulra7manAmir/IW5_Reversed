@@ -348,8 +348,7 @@ _id_3E6D()
 _id_47D9()
 {
     level._id_1245["player_rig"] = #animtree;
-    //level._id_1F90["player_rig"] = "viewhands_player_yuri_europe";
-    level._id_1F90["player_rig"] = "viewhands_player_yuri";
+    level._id_1F90["player_rig"] = "viewhands_player_yuri_europe";
     level._id_0C59["player_rig"]["rappel_1"] = %rescue_player_rappel_1;
     level._id_0C59["player_rig"]["rappel_2"] = %rescue_player_rappel_2_mirrored;
     level._id_0C59["generic"]["rescue_ending_player_drag_handoff_player"] = %rescue_ending_player_drag_handoff_player;
@@ -608,7 +607,7 @@ _id_3E6F( var_0 )
     var_3 = var_1 gettagangles( "tag_flash" );
     var_4 = anglestoforward( var_3 );
     playfxontag( common_scripts\utility::getfx( "deserteagle_muzzleflash" ), var_1, "tag_flash" );
-    magicbullet( "deserteagle", var_2, var_2 + var_4 );
+    magicbullet( "scar_h_reflex", var_2, var_2 + var_4 );
     var_0._id_5E7D = 200;
     maps\rescue_2_cavern_code::_id_5E7B( var_0 );
 }
@@ -617,7 +616,8 @@ _id_3E71( var_0 )
 {
     var_1 = var_0 gettagorigin( "tag_weapon_left" );
     var_2 = spawn( "script_model", var_1 );
-    var_2 setmodel( "weapon_desert_eagle_iw5" );
+    //var_2 setmodel( "weapon_desert_eagle_iw5" );
+    var_2 setmodel( "weapon_scar_sp_iw5" );
     var_2 hidepart( "tag_silencer" );
     var_2 linkto( var_0, "tag_weapon_left", ( 0.0, 0.0, 0.0 ), ( 0.0, 0.0, 0.0 ) );
     var_0._id_3E70 = var_2;
@@ -671,11 +671,21 @@ _id_3E74( var_0, var_1 )
     if ( issubstr( tolower( var_2 ), "rpg" ) )
         var_2 = "rpg_player";
 
-    var_3 = self gettagorigin( "tag_weapon_right" );
+    //var_3 = self gettagorigin( "tag_weapon_right" );
+    //var_4 = self gettagangles( "tag_weapon_right" );
+    //var_5 = spawn( "script_model", var_3 );
+    //var_5.angles = var_4;
+    //var_6 = getweaponmodel( var_0 );
+    //var_5 setmodel( var_6 );
+    //var_5 physicslaunchclient( var_5.origin, ( 0.0, 0.0, 0.0 ) );
+    //self endon( "end_weapon_drop_" + var_1 );
+    //wait 0.1;
+	
+	var_3 = self gettagorigin( "tag_weapon_right" );
     var_4 = self gettagangles( "tag_weapon_right" );
     var_5 = spawn( "script_model", var_3 );
     var_5.angles = var_4;
-    var_6 = getweaponmodel( var_0 );
+    var_6 = getweaponmodel( "weapon_rpg7" );
     var_5 setmodel( var_6 );
     var_5 physicslaunchclient( var_5.origin, ( 0.0, 0.0, 0.0 ) );
     self endon( "end_weapon_drop_" + var_1 );

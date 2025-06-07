@@ -102,8 +102,8 @@ _id_56FB()
     precachemodel( "weapon_usp_silencer" );
     precachemodel( "weapon_commando_knife" );
     precachemodel( "head_price_europe_c_nvg" );
-    //maps\_load::_id_1F5C( "viewmodel_base_viewhands" );
-    maps\_load::_id_1F5C( "viewhands_player_delta_shg" );
+    maps\_load::_id_1F5C( "viewhands_player_yuri_europe" );
+    //maps\_load::_id_1F5C( "viewhands_player_delta_shg" );
     maps\castle_parachute_sim::_id_806D();
     maps\_c4::main();
 }

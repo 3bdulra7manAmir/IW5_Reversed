@@ -4,7 +4,6 @@
 main()
 {
     self setmodel( "body_russian_military_assault_a" );
-
     self attach( "head_russian_military_bb", "", 1 );
 	self.headmodel = "head_russian_military_bb";
     

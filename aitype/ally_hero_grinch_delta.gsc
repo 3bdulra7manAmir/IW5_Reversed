@@ -31,9 +31,13 @@ main()
     {
         character\paris_b\allies\character_russian_rnd::main();
     }
-    else
+    else if ( level.script == "paris_ac130")
     {
         character\paris_ac130\allies\character_russian_rnd::main();
+    }
+    else if (level.script == "sp_berlin" || level.script == "berlin")
+    {
+        character\berlin\allies\character_russian_rnd::main();
     }
 }
 
@@ -47,6 +51,7 @@ precache()
     character\ny_man\allies\character_russian_rnd::precache();
     character\paris_b\allies\character_russian_rnd::precache();
     character\paris_ac130\allies\character_russian_rnd::precache();
+    character\berlin\allies\character_russian_rnd::precache();
     precacheitem( "m14ebr" );
     precacheitem( "usp_silencer" );
     precacheitem( "usp_silencer" );

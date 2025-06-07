@@ -442,8 +442,8 @@ _id_7711()
     level._id_1245["escape_chute_price_2"] = #animtree;
     level._id_1F90["escape_chute_price_2"] = "ctl_parachute_ai";
     level._id_1245["player_rig_ripcord"] = #animtree;
-    //level._id_1F90["player_rig_ripcord"] = "viewmodel_parachute_ripcord";
-    level._id_1F90["player_rig_ripcord"] = "viewhands_player_delta_shg";
+    level._id_1F90["player_rig_ripcord"] = "viewmodel_parachute_ripcord";
+    //level._id_1F90["player_rig_ripcord"] = "viewhands_player_delta_shg";
     level._id_0C59["player_rig_ripcord"]["escape_player_deploy_chute"] = %castle_truck_escape_player_deploy_chute_ripcord;
 }
 #using_animtree("script_model");
