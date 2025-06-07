@@ -28,8 +28,10 @@ xmodel,body_volk_a
 
 // BTR80 //
 xmodel,vehicle_stryker_config2
+phys_collmap,vehicle_stryker_config2
 // BTR80 //
 
 // vehicle_stryker_config2 //
-//xmodel,vehicle_btr80
+xmodel,vehicle_btr80
+phys_collmap,vehicle_btr80
 // vehicle_stryker_config2 //
