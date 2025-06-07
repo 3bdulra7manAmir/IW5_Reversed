@@ -6,7 +6,6 @@ main()
     self setmodel( "mp_body_shadow_co_smg_rolledup" );
     self attach( "head_shadow_co_e", "", 1 );
 	self.headmodel = "head_shadow_co_e";
-    
     self.voice = "american";
 }
 

@@ -6,7 +6,6 @@ main()
     self setmodel( "body_riot_udt" );
     self attach( "head_riot_udt", "", 1 );
 	self.headmodel = "head_riot_udt";
-    
     self.voice = "american";
 }
 

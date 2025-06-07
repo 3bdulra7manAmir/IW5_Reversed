@@ -22,11 +22,7 @@ main()
     }
 
     self.weapon = "rsass_hybrid_silenced";
-    if( level.script == "prague" || level.script == "prague_escape")
-    {
-        character\prague\allies\character_russian_rnd::main();
-    }
-    else if ( level.script == "prague_escape" )
+    if ( level.script == "prague_escape" || level.script == "prague")
     {
         character\prague_escape\allies\character_russian_rnd::main();
     }
@@ -39,7 +35,6 @@ spawner()
 
 precache()
 {
-    character\prague\allies\character_russian_rnd::precache();
     character\prague_escape\allies\character_russian_rnd::precache();
     precacheitem( "rsass_hybrid_silenced" );
     precacheitem( "rsass_hybrid_reflex_silenced" );

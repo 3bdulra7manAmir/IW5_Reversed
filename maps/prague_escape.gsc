@@ -38,8 +38,8 @@ _id_7B5C()
 
 _id_56FB()
 {
-    //maps\_load::_id_1F5C( "viewhands_player_yuri_europe" );
-    maps\_load::_id_1F5C( "viewhands_player_delta_shg" );
+    maps\_load::_id_1F5C( "viewhands_player_yuri_europe" );
+    //maps\_load::_id_1F5C( "viewhands_player_delta_shg" );
     vehicle_scripts\_suburban::main( "vehicle_suburban", undefined, "script_vehicle_suburban" );
     maps\prague_escape_code::_id_7A49();
     precachestring( &"PRAGUE_ESCAPE_WATCH_PRICE_LOOK" );

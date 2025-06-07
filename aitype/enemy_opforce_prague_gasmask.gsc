@@ -37,7 +37,7 @@ main()
             break;
     }
 
-    if( level.script == "prague" || level.script == "prague_escape")
+    if( level.script == "prague")
     {
         character\prague\enemies\character_shadow_co_rnd::main();
     }
@@ -55,8 +55,14 @@ spawner()
 
 precache()
 {
-    character\prague\enemies\character_shadow_co_rnd::precache();
-    character\prague_escape\enemies\character_shadow_co_rnd::precache();
+    if( level.script == "prague")
+    {
+        character\prague\enemies\character_shadow_co_rnd::precache();
+    }
+    else if ( level.script == "prague_escape" )
+    {
+        character\prague_escape\enemies\character_shadow_co_rnd::precache();
+    }
     precacheitem( "ak47" );
     precacheitem( "ak47_acog" );
     precacheitem( "g36c" );

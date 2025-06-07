@@ -61,8 +61,8 @@ main()
     maps\_utility::_id_1E74( "gallery", ::_id_791E, "Gallery", ::_id_7926 );
     maps\_utility::_id_1E74( "church", maps\prague_church_script::_id_5433, "Chruch", maps\prague_church_script::_id_78DE );
     _id_60D6::main();
-    //maps\_load::_id_1F5C( "viewhands_player_yuri_europe" ); //HERE
-    maps\_load::_id_1F5C( "viewhands_player_delta_shg" );
+    maps\_load::_id_1F5C( "viewhands_player_yuri_europe" ); //HERE
+    //maps\_load::_id_1F5C( "viewhands_player_delta_shg" );
     maps\_load::main();
     thread maps\prague_amb::main();
     maps\_stealth::main();

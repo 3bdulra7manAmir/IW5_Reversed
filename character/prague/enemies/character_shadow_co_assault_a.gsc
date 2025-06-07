@@ -6,7 +6,6 @@ main()
     self setmodel( "body_shadow_co_assault" );
     self attach( "head_shadow_co_a", "", 1 );
 	self.headmodel = "head_shadow_co_a";
-    
     self.voice = "american";
 }
 

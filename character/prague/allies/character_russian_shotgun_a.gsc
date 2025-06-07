@@ -6,7 +6,6 @@ main()
     self setmodel( "body_russian_military_shotgun_a_airborne" );
     self attach( "head_russian_military_f", "", 1 );
 	self.headmodel = "head_russian_military_f";
-    
     self.voice = "american";
 }
 
